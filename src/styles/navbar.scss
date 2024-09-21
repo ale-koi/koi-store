@@ -1,0 +1,35 @@
+#navBar{
+    background-color: #ffd4e1;
+    width: 100vw;
+    height: 75px;
+    // padding: 5px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+        ul{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            row-gap: 20px;
+        }
+        li{
+            padding: 15px;
+            width: fit-content;
+            text-align: left; 
+                &:first-child{
+                    font-size: 45px;
+                        &:hover{
+                            background-color: unset;
+                        }
+                }
+                &:hover{
+                    background-color: #dae8ff;
+                }
+        }
+        a{
+            text-decoration: none;
+        }  
+}

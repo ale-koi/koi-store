@@ -1,8 +1,15 @@
 import React from 'react'
+import Cart from '../assets/shopping-cart.svg'
 
 const CartWidget = () => {
     return (
-        <div>CartWidget</div>
+        <>
+            <div>
+                <img src={Cart} style={{width: 35, marginLeft: -50, }}/>
+                <span style={{fontSize: 18,}}>1</span>
+            </div>
+        </>
+        
     )
 }
 
