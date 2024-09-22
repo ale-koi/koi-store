@@ -2,12 +2,11 @@
     background-color: #ffd4e1;
     width: 100vw;
     height: 75px;
-    // padding: 5px;
-    font-size: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
         ul{
             list-style-type: none;
             display: flex;
@@ -16,11 +15,14 @@
             row-gap: 20px;
         }
         li{
+            font-family: Dongle;
+            font-weight: 400;
             padding: 15px;
             width: fit-content;
             text-align: left; 
+            font-size: 40px;
                 &:first-child{
-                    font-size: 45px;
+                    font-size: 60px;
                         &:hover{
                             background-color: unset;
                         }
@@ -31,5 +33,19 @@
         }
         a{
             text-decoration: none;
+            color: black;
         }  
+}
+
+.cart-div{
+    width: 50%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+        img{
+            cursor: pointer;
+        }
+    
 }

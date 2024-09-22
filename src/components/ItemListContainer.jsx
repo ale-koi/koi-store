@@ -1,8 +1,11 @@
 import React from 'react'
 
-const ItemListContainer = () => {
+const ItemListContainer = ({message}) => {
   return (
-    <div>Greeting!</div>
+    <div style={{textAlign: 'center', margin: 200,}}>
+      <h1>{message}</h1>
+      <span>click on cart to see the number go up! (⌒.−)＝★</span>
+    </div>
   )
 }
 

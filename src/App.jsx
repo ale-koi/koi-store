@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <ItemListContainer/>
+      <ItemListContainer message={'ヽ(;^o^ヽ) welcome!'}/>
     </>
   )
 }
