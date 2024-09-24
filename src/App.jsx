@@ -5,9 +5,10 @@ function App() {
   return (
     <>
       <Navbar/>
-      <ItemListContainer message={'ヽ(;^o^ヽ) welcome!'}/>
+      <ItemListContainer message={'ヽ(;^o^ヽ) welcome!'} instructions={'click on cart to see the number go up! (⌒.−)＝★'}/>
     </>
   )
 }
+
 
 export default App
