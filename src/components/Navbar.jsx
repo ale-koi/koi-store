@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/navbar.scss'
 import CartWidget from './CartWidget.jsx'
 
@@ -7,7 +6,7 @@ const Navbar = () => {
         <>
         <div id="navBar">
             <ul>
-                <li><a href=''>Koi</a></li>
+                <li><a href=''>Koi store</a></li>
                 <li><a href=''>Catalog</a></li>
                 <li><a href=''>Categories</a></li>
                 <li><a href=''>New Arrivals</a></li>
