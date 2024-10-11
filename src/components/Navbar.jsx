@@ -4,58 +4,76 @@ import  '../styles/navbar.scss'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
-  return (
-    <nav className="navBar">
-        <ul >
-            <li>
-                <NavLink className={ ({isActive}) =>{
-                    return isActive ? "Active" : "notActive"
-                }}
-                to = {"/"}
-                >
-                    Koi Store
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className={ ({isActive}) =>{
-                    return isActive ? "Active" : "notActive"
-                }}
-                to = {"/category/Shonen"}
-                >
-                    Shonen
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className={ ({isActive}) =>{
-                    return isActive ? "Active" : "notActive"
-                }}
-                to = {"/category/Josei"}
-                >
-                    Josei
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className={ ({isActive}) =>{
-                    return isActive ? "Active" : "notActive"
-                }}
-                to = {"/category/Seinen"}
-                >
-                    Seinen
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className={ ({isActive}) =>{
-                    return isActive ? "Active" : "notActive"
-                }}
-                to = {"/category/Isekai"}
-                >
-                    Isekai
-                </NavLink>
-            </li>
-            
-        </ul>
-        <CartWidget/>
-    </nav>
+    return (
+        <nav className="navBar">
+            <ul >
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/"}
+                    >
+                        Koi Store
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/category/Shonen"}
+                    >
+                        Shonen
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/category/Josei"}
+                    >
+                        Josei
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/category/Seinen"}
+                    >
+                        Seinen
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/category/Isekai"}
+                    >
+                        Isekai
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/category/Romance"}
+                    >
+                        Romance
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/category/Mecha"}
+                    >
+                        Mecha
+                    </NavLink>
+                </li>
+                
+            </ul>
+            <CartWidget/>
+        </nav>
 )
 }
 

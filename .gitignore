@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+variables.scss
+mixing.scss
+app.scss
+Footer.jsx

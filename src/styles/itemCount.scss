@@ -1,6 +1,5 @@
 #itemCount{
-    height: 25%;
-    width: 300px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -11,30 +10,39 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: baseline;
-            background-color: #feabc5;
+            align-items: center;
+            // background-color: rgba($color: #FF004B, $alpha: 0.2);
             padding: 5px;
+            font-family: dongle, sans-serif;
+            font-size: 40px;
                 .item-arrow{
-                    background-color: #8a5b6a;
-                    width: 30%;
+                    background-color: rgba($color: #FF004B, $alpha: 0.6);
+                    width: 50px;
+                    height: 50px;
                     text-align: center;
                     margin: 5px;
                     cursor: pointer;
+                    border-radius: 100px;
+                    color: white;
+
                 }
                 .item-quantity{
-                    width: 30%;
+                    width: 50px;
                     text-align: center;
+                    margin-top: 7px;
                 }
-                
+
         }
     button{
-        background-color: #8a5b6a;
-        width: 50%;
-        height: 25px;
-        border: none;
-        margin: 10px;
-        color: black;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+        width: 250px;
+            height: 40px;
+            background-color: #ff004b;
+            border-radius: 16px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+        }
+
 }

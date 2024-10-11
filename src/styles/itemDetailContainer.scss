@@ -1,57 +1,44 @@
 .item-details{
     width: 98%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 10px;
-        .title{
-            height: 100px;
-            width: 90%;
-            background-color: rgba($color: #ffd4e1, $alpha: 0.8);
-            padding: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+        .detail-picture{
+
+            width: 70%;
             margin: 10px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+                img{
+                    width: 450px;
+                    height: 650px;
+                }
+    
+        }
+        .detail-text{
+            // background-color: rgba($color: #FC7A2D, $alpha: 0.8);
+            width: 30%;
+            height: 660px;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        img{
+            width: 40px;
+        }
+        .title-box{
+            text-align: left;
             h2{
-                font-family: dongle;
-                font-weight: 400;
+                font-family: dongle, sans-serif;
                 font-size: 50px;
-                line-height: 1.2;     
-                    span{
-                        font-size: 30px;
-                    }       
-            }
-            h4{
-                font-size: 20px;
-                font-style: italic;
+                line-height: 0.6;
             }
             
-
-        }
-        .details-body{
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            padding: 10px;
-
-            .extra-details{
-                width: 30%;
-                background-color: rgba($color: #ffd4e1, $alpha: 0.8);
-                margin-left: 10px;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                flex-direction: column;
-                border-radius: 50px;
-                    p{
-                        width: 80%;
-                        margin-top: 20px;
-                        padding: 10px;
-                    }
-            }
-            img{
-                width: 700px;
-                height: auto;
-                object-fit: cover;
-            }
         }
 }

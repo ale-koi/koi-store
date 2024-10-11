@@ -11,4 +11,4 @@ const Layout = ({ children }) => {
 
 export default Layout
 
-// add footer here and add grid to styles (_ _)ヾ(‘ロ‘)
+// add footer here eventually (_ _)ヾ(‘ロ‘)

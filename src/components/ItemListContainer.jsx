@@ -21,7 +21,7 @@ useEffect (()=>{
 /* async try and catch, with the filter （-＾〇＾-） */
 try {
   const gettingProducts = async () =>{
-    /* turning on the loading manually  */
+    /* turning on the loading manually (´∇ﾉ｀*)ノ */
     setLoading (true)
     const products = await promiseProducts
     let filteredProducts 
@@ -37,13 +37,13 @@ try {
   gettingProducts()
   
 } catch (error){
-  console.log("凸(｀⌒´メ)凸")
+  console.log(error)
 }
 }, [categoryID])
 
 /*sugar syntax that changes depending on if it's loading or not ( ￣┏＿┓￣) */
 return loading ? 
-  <h1 style={{fontSize: 65, color: 'black', textAlign: 'center', margin: 100}}>Loading, please wait!ヾ(￣0￣； )ノ</h1> :
+  <h1 style={{fontSize: 65, color: '#1E1E1F', textAlign: 'center', margin: 300}}>Getting the things, please wait!ヾ(￣0￣； )ノ</h1> :
   <ItemList products={products}/>
 }
 

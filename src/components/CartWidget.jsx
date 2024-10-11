@@ -13,8 +13,8 @@ const CartWidget = () => {
     return (
         <>
             <div className='cart-div'>
-                <img src={Cart} onClick={handlerClick} style={{width: 35, margin: 10,}}/>
-                <div style={{width: 35, height: 35, fontSize: 28, color: 'black', backgroundColor: '#dae8ff', textAlign: 'center', borderRadius: 100, fontFamily: 'Dongle', }}>{count}</div>
+                <img src={Cart} onClick={handlerClick} style={{width: 50, marginRight: 10,}}/>
+                <div style={{width: 40, height: 40, fontSize: 30, color: 'white', backgroundColor: '#FF004B', textAlign: 'center', borderRadius: 100, fontFamily: 'Dongle', }}>{count}</div>
             </div>
         </>
         
