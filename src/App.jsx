@@ -1,12 +1,22 @@
-import Navbar from "./components/Navbar.jsx";
 import ItemListContainer from "./components/ItemListContainer.jsx"
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Layout from "./components/Layout.jsx";
+import ItemDetailContainer from "./components/ItemDetailContainer.jsx";
+
+
+
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <ItemListContainer message={'ヽ(;^o^ヽ) welcome!'} instructions={'click on cart to see the number go up! (⌒.−)＝★'}/>
-    </>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path = "/" element = {<ItemListContainer/>}/>
+          <Route path = "/category/:categoryID" element = {<ItemListContainer/>}/>
+          <Route path = "/item/" element = {<ItemDetailContainer/>}/>
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   )
 }
 

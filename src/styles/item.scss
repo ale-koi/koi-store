@@ -1,0 +1,43 @@
+.item-card{
+    width: 25%;
+    height: 550px;
+    background-color: #9191E9;
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    // box-shadow: 10px 9px 7px -6px rgba(0,0,0,0.48);
+    // -webkit-box-shadow: 10px 9px 7px -6px rgba(0,0,0,0.48);
+    // -moz-box-shadow: 10px 9px 7px -6px rgba(0,0,0,0.48);
+    margin: 15px;
+    overflow: hidden;
+        img{
+            width: 360px;
+            height: 350px;
+            margin: 5px;
+        }
+        h2{
+            font-size: 18px;
+            color: black;
+            line-height: 1;
+            text-align: left;
+        }
+        h4{
+            font-size: 20px;
+            text-align: right;
+        }
+        span{
+            font-size: 12px;
+        }
+        button{
+            width: 75%;
+            padding: 5px;
+            background-color: #dae8ff;
+            border-radius: 25px;
+            color: black;
+            border: none;
+            cursor: pointer;
+            
+        }
+}

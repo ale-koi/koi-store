@@ -1,0 +1,40 @@
+#itemCount{
+    height: 25%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+        .itemButton{
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: baseline;
+            background-color: #feabc5;
+            padding: 5px;
+                .item-arrow{
+                    background-color: #8a5b6a;
+                    width: 30%;
+                    text-align: center;
+                    margin: 5px;
+                    cursor: pointer;
+                }
+                .item-quantity{
+                    width: 30%;
+                    text-align: center;
+                }
+                
+        }
+    button{
+        background-color: #8a5b6a;
+        width: 50%;
+        height: 25px;
+        border: none;
+        margin: 10px;
+        color: black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
