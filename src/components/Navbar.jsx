@@ -70,6 +70,16 @@ const Navbar = () => {
                         Mecha
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink className={ ({isActive}) =>{
+                        return isActive ? "Active" : "notActive"
+                    }}
+                    to = {"/category/Horror"}
+                    >
+                        Horror
+                    </NavLink>
+                </li>
+                
                 
             </ul>
             <CartWidget/>
