@@ -56,15 +56,6 @@ const Navbar = () => {
                     <NavLink className={ ({isActive}) =>{
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/category/Romance"}
-                    >
-                        Romance
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink className={ ({isActive}) =>{
-                        return isActive ? "Active" : "notActive"
-                    }}
                     to = {"/category/Mecha"}
                     >
                         Mecha
