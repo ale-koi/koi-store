@@ -3,21 +3,27 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Layout from "./components/Layout.jsx";
 import ItemDetailContainer from "./components/ItemDetailContainer.jsx";
 
+import CartProvider from "./contexts/CartProvider.jsx";
+import Cart from "./components/Cart.jsx";
+
 
 
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path = "/" element = {<ItemListContainer/>}/>
-          <Route path = "/category/:categoryID" element = {<ItemListContainer/>}/>
-          <Route path = "/item/:id" element = {<ItemDetailContainer/>}/>
-        </Routes>
-      </Layout>
-    </BrowserRouter>
-  )
+    return (
+    <CartProvider>
+        <BrowserRouter>
+            <Layout>
+                <Routes>
+                    <Route path = "/" element = {<ItemListContainer/>}/>
+                    <Route path = "/category/:categoryID" element = {<ItemListContainer/>}/>
+                    <Route path = "/item/:id" element = {<ItemDetailContainer/>}/>
+                    <Route path = "/cart" element = {<Cart/>}/>
+                </Routes>
+            </Layout>
+        </BrowserRouter>
+    </CartProvider>
+)
 }
 
 

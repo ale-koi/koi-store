@@ -1,20 +1,20 @@
-import React, { useState } from 'react'
-import Cart from '../assets/shopping-cart.svg'
+import React, { useContext, useState } from 'react'
+import cartIcon from '../assets/shopping-cart.svg'
 import '../styles/navbar.scss'
+import { Cart } from '../contexts/CartProvider'
+import { NavLink } from 'react-router-dom'
 
 
 const CartWidget = () => {
-    const [count, setCountCart] = useState(0)
+    const {totalItem} = useContext(Cart)
 
-    const handlerClick = () => {
-        setCountCart( prevCount =>  prevCount + 1) 
-    }
 
     return (
         <>
             <div className='cart-div'>
-                <img src={Cart} onClick={handlerClick} style={{width: 50, marginRight: 10,}}/>
-                <div style={{width: 40, height: 40, fontSize: 30, color: 'white', backgroundColor: '#FF004B', textAlign: 'center', borderRadius: 100, fontFamily: 'Dongle', }}>{count}</div>
+                <NavLink to ="/cart"><img src={cartIcon} style={{width: 50, marginRight: 10,}}/></NavLink>
+                <div style={{width: 40, height: 40, fontSize: 30, color: 'white', backgroundColor: '#FF004B', textAlign: 'center', borderRadius: 100, fontFamily: 'Dongle', }}>{totalItem}</div>
+                
             </div>
         </>
         

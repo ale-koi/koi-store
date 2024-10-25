@@ -1,0 +1,30 @@
+.cart-products{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr repeat(3, 0.5fr);
+    grid-column-gap: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    //     h2{
+    //         font-size: 30px;
+    //     }
+        span{
+            font-size: 12px;
+        }
+        img{
+            width: 75px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        p{
+
+            text-align: center;
+        }
+
+}
+
+
+

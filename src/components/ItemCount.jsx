@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import '../styles/itemCount.scss'
 
-const ItemCount = ({quantity}) => {
+const ItemCount = ({stock, addToCart}) => {
     //this adds ヽ(*≧ω≦)ﾉ
     const [count, setCount] = useState(1)
-    let itemQuantity = Number(quantity)
+    let itemQuantity = Number(stock)
 
     const handlerAdder = () => {
         if (itemQuantity > 0 && count < itemQuantity){
@@ -29,13 +29,12 @@ const ItemCount = ({quantity}) => {
     return (
         <>
             <div id='itemCount'>
-                
-                    <div className='itemButton'>
+                <div className='itemButton'>
                         <div className='item-arrow' onClick={handlerRemover}> - </div>
                         <div className='item-quantity'> {count} </div>
                         <div className='item-arrow' onClick={handlerAdder}> + </div>
                     </div>
-                    <button className='add-cart-btn'> Add to Cart </button>
+                    <button className='add-cart-btn' onClick={()=>addToCart(count)} > Add to Cart </button>
                 </div>
         </>
     )
