@@ -1,0 +1,12 @@
+.main-cart{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+        h1{
+            font-family: dongle;
+            font-size: 60px;
+        }
+}

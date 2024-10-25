@@ -1,15 +1,13 @@
 .cart-products{
-    background-color: aquamarine;
+    background-color: rgba($color: #FFAFC5, $alpha: 0.4);
     display: grid;
-    grid-template-columns: 1fr 1.5fr 2fr repeat(3, 0.5fr);
+    grid-template-columns: 0.5fr 2fr 0.5fr repeat(2, 0.5fr);
     grid-column-gap: 10px;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
-    justify-content: center;
-    
-    //     h2{
-    //         font-size: 30px;
-    //     }
+        &:nth-child(even){
+            background-color: rgba($color: #FC7A2D, $alpha: 0.2);
+        }
         span{
             font-size: 12px;
         }
@@ -20,11 +18,21 @@
             margin: 10px;
         }
         p{
-
             text-align: center;
         }
-
 }
+
+.remove-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+    font-family: dongle;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
 
 
 
