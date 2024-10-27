@@ -5,6 +5,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer.jsx";
 
 import CartProvider from "./contexts/CartProvider.jsx";
 import Cart from "./components/Cart.jsx";
+import Testing from "./components/Testing.jsx";
 
 
 
@@ -19,6 +20,7 @@ function App() {
                     <Route path = "/category/:categoryID" element = {<ItemListContainer/>}/>
                     <Route path = "/item/:id" element = {<ItemDetailContainer/>}/>
                     <Route path = "/cart" element = {<Cart/>}/>
+                    {/* <Route path = "/testing" element ={<Testing/>}/> */}
                 </Routes>
             </Layout>
         </BrowserRouter>

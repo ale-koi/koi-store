@@ -1,10 +1,12 @@
 .cart-products{
+    width: 100%;
     background-color: rgba($color: #FFAFC5, $alpha: 0.4);
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr repeat(2, 0.5fr);
     grid-column-gap: 10px;
     padding: 10px;
     align-items: center;
+    
         &:nth-child(even){
             background-color: rgba($color: #FC7A2D, $alpha: 0.2);
         }

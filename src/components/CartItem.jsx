@@ -1,20 +1,25 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../styles/cartItem.scss'
+import { Cart } from '../contexts/CartProvider'
 
-const CartItem = ({product}) => {
-  return (
-    <>
-    <div className="cart-products" id="">
-        <img src="https://picsum.photos/75/150"/>
-        <h2>Rekishi ni nokoru akujo ni naruzo akuyaku reijou ni naru hodo ouji no dekiai wa kasoku suru you desu. <span>vol. here.</span></h2>
-        <p>Qt. XX</p>
-        <p>Price: 0000</p>
-        <button className='remove-icon'> x </button>
-    </div>
-</>
-        
 
-  )
+const CartItem = ({ product }) => {
+    const { hanlderRemover } = useContext(Cart)
+
+    return (
+        <>
+            <div className="cart-products" id={product.id}>
+                <img src={product.pictureURL} />
+                <h2>{product.title} <span>vol. {product.volume}</span></h2>
+                <p>Quantity: {product.quantity}</p>
+                <p>Price: {(product.total).toFixed(2)}</p>
+                <button className='remove-icon' id={product.id} onClick={() => hanlderRemover(product.id, product.total, product.quantity)}> x </button>
+            </div>
+        </>
+
+    )
+
+
 }
 
 export default CartItem

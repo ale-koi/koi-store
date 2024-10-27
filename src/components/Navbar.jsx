@@ -1,6 +1,6 @@
 import React from 'react'
 import CartWidget from './CartWidget.jsx'
-import  '../styles/navbar.scss'
+import '../styles/navbar.scss'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -8,74 +8,74 @@ const Navbar = () => {
         <nav className="navBar">
             <ul >
                 <li>
-                    <NavLink className={ ({isActive}) =>{
+                    <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/"}
+                        to={"/"}
                     >
                         Koi Store
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className={ ({isActive}) =>{
+                    <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/category/Shonen"}
+                        to={"/category/Shonen"}
                     >
                         Shonen
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className={ ({isActive}) =>{
+                    <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/category/Josei"}
+                        to={"/category/Josei"}
                     >
                         Josei
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className={ ({isActive}) =>{
+                    <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/category/Seinen"}
+                        to={"/category/Seinen"}
                     >
                         Seinen
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className={ ({isActive}) =>{
+                    <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/category/Isekai"}
+                        to={"/category/Isekai"}
                     >
                         Isekai
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className={ ({isActive}) =>{
+                    <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/category/Mecha"}
+                        to={"/category/Mecha"}
                     >
                         Mecha
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className={ ({isActive}) =>{
+                    <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                    to = {"/category/Horror"}
+                        to={"/category/Horror"}
                     >
                         Horror
                     </NavLink>
                 </li>
-                
-                
+
+
             </ul>
-            <CartWidget/>
+            <CartWidget />
         </nav>
-)
+    )
 }
 
 export default Navbar
