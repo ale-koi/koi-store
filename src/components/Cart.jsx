@@ -7,7 +7,6 @@ import { NavLink } from 'react-router-dom'
 
 const Cart = () => {
     const { cartList, totalPrice, hanlderClearer} = useContext(CartContext)
-        
 
     return (
         <>

@@ -11,6 +11,7 @@ const ItemDetail = ({ item }) => {
     const { addCart } = useContext(Cart) // plz remember to destructuring that s(・｀ヘ´・;)ゞ
     const [viewButton, setViewButton] = useState(true)
 
+
     const cartHandle = (amount) => {
         setViewButton(false)
         console.log(amount)

@@ -20,7 +20,7 @@ const Navbar = () => {
                     <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                        to={"/category/Shonen"}
+                        to={"/category/shonen"}
                     >
                         Shonen
                     </NavLink>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                        to={"/category/Josei"}
+                        to={"/category/josei"}
                     >
                         Josei
                     </NavLink>
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                        to={"/category/Seinen"}
+                        to={"/category/seinen"}
                     >
                         Seinen
                     </NavLink>
@@ -47,27 +47,9 @@ const Navbar = () => {
                     <NavLink className={({ isActive }) => {
                         return isActive ? "Active" : "notActive"
                     }}
-                        to={"/category/Isekai"}
+                        to={"/category/shojo"}
                     >
-                        Isekai
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink className={({ isActive }) => {
-                        return isActive ? "Active" : "notActive"
-                    }}
-                        to={"/category/Mecha"}
-                    >
-                        Mecha
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink className={({ isActive }) => {
-                        return isActive ? "Active" : "notActive"
-                    }}
-                        to={"/category/Horror"}
-                    >
-                        Horror
+                        Shojo
                     </NavLink>
                 </li>
 

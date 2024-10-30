@@ -1,14 +1,17 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import ItemDetail from './ItemDetail'
 import productList from '../MOCK_DATA.json'
 import { useParams } from 'react-router-dom'
+
 
 
 const ItemDetailContainer = () => {
     const { id } = useParams()
     const [item, setItem] = useState([])
     const [loading, setLoading] = useState([false])
-    console.log(id)
+
+    
+   
 
     useEffect(() => {
         const itemPromise = new Promise((res, rej) => {
@@ -31,6 +34,9 @@ const ItemDetailContainer = () => {
                 setLoading(false)
             }
             settingItem()
+            
+
+
 
 
         } catch {
