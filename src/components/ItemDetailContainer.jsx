@@ -1,50 +1,45 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ItemDetail from './ItemDetail'
-import productList from '../MOCK_DATA.json'
 import { useParams } from 'react-router-dom'
-
+import { doc, getDoc } from "firebase/firestore";
+import { db } from '../firebase/config';
 
 
 const ItemDetailContainer = () => {
     const { id } = useParams()
     const [item, setItem] = useState([])
-    const [loading, setLoading] = useState([false])
-
-    
-   
+    const [loading, setLoading] = useState(false)
 
     useEffect(() => {
-        const itemPromise = new Promise((res, rej) => {
-            setTimeout(() => {
-                res(productList)
-            }, 2000);
-        })
-        try {
-            const settingItem = async () => {
+        const settingItem = async () => {
+            try {
+                /*the loader (,,#ﾟДﾟ) */
                 setLoading(true)
-                const items = await itemPromise
-                let itemFound
-                if (id) {
-                    itemFound = items.find(item => item.id === Number(id))
-                    console.log(itemFound)
+                /*what should we fetch from the db （;≧皿≦） */
+                const docRef = doc(db, "products", id);
+                const docSnap = await getDoc(docRef);
+                /*the search for the data 且_(・_・ ) */
+                if (docSnap.exists()) {
+                    console.log("Document data:", docSnap.data());
+                    setItem({ ...docSnap.data(), id })
+                    setLoading(false)
                 } else {
-                    console.log("technical problems ＼(・｀(ｪ)・)/") /*what should I put here if it fails? ⊂((〃’⊥’〃))⊃*/
+                    /*remember to put something else? ＿φ(□□ヘ) */
+                    console.log("No such document!");
                 }
-                setItem(itemFound)
-                setLoading(false)
+            } catch (error) { /*dont forget the errors */
+                console.log(error)
             }
-            settingItem()
-            
-
-
-
-
-        } catch {
-            console.log("(´┏o┓｀)")
         }
+        settingItem()
     }, [id]) /*this closes the useEffect ヽ(*^ｰ^)人(^ｰ^*)ノ dont forget */
 
-    return loading ? <h1 style={{ fontSize: 65, color: '#1E1E1F', textAlign: 'center', margin: 300 }}>Getting the info, please wait! (｡･ω･)ﾉﾞ</h1> :
+    return loading ?
+    (<div style={{minHeight: "35vw"}}>
+        <h1 style={{ fontSize: 65, color: '#FC7A2D', textAlign: 'center', marginTop: 300,}}> Loading! (｡･ω･)ﾉﾞ</h1>
+    </div>
+    )
+    :
         <ItemDetail item={item} />
 }
 

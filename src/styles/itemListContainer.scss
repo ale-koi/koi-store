@@ -1,20 +1,11 @@
 #itemContainer{
-    width: 100%;
+    min-width: 100vh;
+    min-height: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 5px;
+
 }
 
-button{
-    width: 250px;
-    height: 40px;
-    background-color: #ff004b;
-    border-radius: 16px;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 10px;
-    }
 

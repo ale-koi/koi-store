@@ -5,7 +5,7 @@
         "category": "shonen",
         "volume": "27",
         "price": 9.60,
-        "pictureURL": "../assets/covers/ace-of-diamond-27.webp",
+        "pictureURL": "/covers/ace-of-diamond-27.webp",
         "description": "Shortly before the Fall Tournament, the retired third-year players demand that the graduating player exhibition match be held immediately. There are certain feelings these experienced players wish to convey to their juniors… feelings that can only be conveyed in a serious game! Can Sawamura and the others send them off satisfied?! The junior-senior exhibition match begins now!",
         "stock": 26
     },
@@ -15,7 +15,7 @@
         "category": "shonen",
         "volume": "47",
         "price": 6.69,
-        "pictureURL": "../assets/covers/ace-of-diamond-47.webp",
+        "pictureURL": "/covers/ace-of-diamond-47.webp",
         "description": "Seido High emerges from the Fall Tournament victorious! Next on the agenda are the Jingu Tournament, the retirement of the third years…and the Spring Koshien! Each player has their own hopes for the coming year, but as the team turns towards the national stage, they all realize one thing…the true challenge has only just begun!",
         "stock": 12
     },
@@ -25,7 +25,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 15.69,
-        "pictureURL": "../assets/covers/berserker-01.webp",
+        "pictureURL": "/covers/berserker-01.webp",
         "description": "A lone swordsman named Guts walks into an inn where a group of bandits are tormenting an elf named Puck and a red-haired youth. Guts kills all but one of the bandits, telling him to inform his master that the Black Swordsman is coming. Guts later finds and kills the Baron before taking his leave, inspiring Puck to travel with the swordsman. Accepting a ride from an old priest named Adolf, Guts experiences a nightmare and wakes up to an attack by spiritually-possessed skeletons, which kill Adolf and his daughter Colette. Guts and Puck arrive to a town run by a pagan-hunting Count that Guts targets.",
         "stock": 26
     },
@@ -35,7 +35,7 @@
         "category": "seinen",
         "volume": "05",
         "price": 16.75,
-        "pictureURL": "../assets/covers/berserker-05.webp",
+        "pictureURL": "/covers/berserker-05.webp",
         "description": "When Guts recovers days later, he is forced into joining the Band of the Hawk when Griffith defeats him in a duel and later learns of the Behelit pendant Griffith possesses. Three years pass and the Band of the Hawk grow in power and numbers as they are employed by the Kingdom of Midland for its Hundred Year War against the Tudor Empire, and Griffith rises in the kingdom's hierarchy after a successful battle. During a siege, Guts and Griffith encounter the Apostle Nosferatu Zodd, a fearsome immortal warrior who nearly kills them before noticing Griffith's Behelit. Zodd takes his leave while warning Guts that Griffith will be his doom once the latter dream crumbles while still considering him a friend.",
         "stock": 13
     },
@@ -45,7 +45,7 @@
         "category": "seinen",
         "volume": "33",
         "price": 14.15,
-        "pictureURL": "../assets/covers/berserker-33.webp",
+        "pictureURL": "/covers/berserker-33.webp",
         "description": "The story follows Guts and his comrades dealing with the aftermath of Griffith's incarnation. Midland faces a new threat in the form of Emperor Ganishka and the Kushan Empire. Along the way, Guts encounters a new ally, Schierke the witch, and obtains the Berserker Armor, which threatens his very sanity. Meanwhile, Griffith plots on his own as he pursues his dream of having a kingdom.",
         "stock": 23
     },
@@ -55,7 +55,7 @@
         "category": "shonen",
         "volume": "01",
         "price": 10.15,
-        "pictureURL": "../assets/covers/bleach-01.webp",
+        "pictureURL": "/covers/bleach-01.webp",
         "description": "Ichigo Kurosaki has always been able to see ghosts, but this ability doesn't change his life nearly as much as his close encounter with Rukia Kuchiki, a Shinigami and member of the mysterious Soul Society. While fighting a Hollow, an evil spirit that preys on humans who display psychic energy, Rukia attempts to lend Ichigo some of her powers so that he can save his family; but much to her surprise, Ichigo absorbs every last bit of her energy. Now a full-fledged Shinigami himself, Ichigo quickly learns that the world he inhabits is one full of dangerous spirits and, along with Rukia - who is slowly regaining her powers - it's Ichigo's job to protect the innocent from Hollows and help the spirits themselves find peace.",
         "stock": 52
     },
@@ -65,7 +65,7 @@
         "category": "shonen",
         "volume": "05",
         "price": 8.85,
-        "pictureURL": "../assets/covers/bleach-05.webp",
+        "pictureURL": "/covers/bleach-05.webp",
         "description": "Ichigo Kurosaki thought that Shinigami were the only ones hunting Hollow], but he was wrong. Enter Uryū Ishida, a Quincy, and possibly the last member of a powerful clan that died out over 200 years ago. Unlike Shinigami who strive to cleanse Hollows of their sins and send them to Soul Society, Quincy adopt a more direct approach--they kill Hollows without hesitation. To demonstrate the supremacy of the Quincy's ways, Uryū challenges Ichigo to a contest--bait is spread around the city, attracting a large number of unstable Hollows. Whoever defeats the most wins, regardless of the danger.\nAlso, Orihime and Sado, confronted with a host of Hollows terrorizing their friends, awaken to their own psychic abilities. Who is the strongest?",
         "stock": 41
     },
@@ -75,7 +75,7 @@
         "category": "shonen",
         "volume": "07",
         "price": 6.58,
-        "pictureURL": "../assets/covers/bleach-07.webp",
+        "pictureURL": "/covers/bleach-07.webp",
         "description": "Rukia Kuchiki is on the run. Her brethren at Soul Society are quite displeased with the fact that she transferred the powers of a Shinigami to a Human and have dispatched two of their strongest agents to neutralize the situation. Their mission is twofold: to return Rukia to Soul Society so that she may pay for her crime and to deal with Ichigo--permanently. But an unlikely third party is standing in their way: Uryū Ishida, the Quincy!",
         "stock": 53
     },
@@ -85,7 +85,7 @@
         "category": "shonen",
         "volume": "24",
         "price": 8.55,
-        "pictureURL": "../assets/covers/bleach-24.webp",
+        "pictureURL": "/covers/bleach-24.webp",
         "description": "The members of the task force have a hard time standing up to the Arrancar; they eventually resort to requesting their power limiters be removed in order to defeat them. Ichigo, who is battling Grimmjow himself, has the toughest time but the fight is cut short when Kaname Tōsen arrives to retrieve Grimmjow, who has squandered all of his Fracción. Grimmjow's punishment is the loss of his left arm and demotion from the Espada. Having been defeated in his last two fights, Ichigo decides to partly accept Shinji's offer to join the Visored. Uryū begins training with his father to regain his Quincy powers.",
         "stock": 71
     },
@@ -95,7 +95,7 @@
         "category": "shonen",
         "volume": "32",
         "price": 6.55,
-        "pictureURL": "../assets/covers/bleach-32.webp",
+        "pictureURL": "/covers/bleach-32.webp",
         "description": "Healing Ichigo's terrible wounds so that he can face Grimmjow Jaegerjaquez at full strength, Orihime Inoue must watch from the sidelines as the two battle. Orihime tries to convince herself that Ichigo will be all right, but she can't help but be worried about him. And when Grimmjow taunts Ichigo into releasing his Hollow self, her confidence in her friend begins to waver. Has their time in the realm of the Hollows changed them both too much?",
         "stock": 12
     },
@@ -105,7 +105,7 @@
         "category": "shonen",
         "volume": "49",
         "price": 6.45,
-        "pictureURL": "../assets/covers/bleach-49.webp",
+        "pictureURL": "/covers/bleach-49.webp",
         "description": "After a long battle, Ichigo Kurosaki loses his Shinigami powers... Ichigo now leads a quiet and peaceful life until he is approached by a mysterious man. What does the man want and how does it relate to Ichigo's lost powers?!",
         "stock": 12
     },
@@ -116,7 +116,7 @@
         "category": "shonen",
         "volume": "57",
         "price": 8.45,
-        "pictureURL": "../assets/covers/bleach-57.webp",
+        "pictureURL": "/covers/bleach-57.webp",
         "description": "With Ichigo trapped in Hueco Mundo, Soul Society comes under attack by a mysterious group of warriors calling themselves the Wandenreich. The Shinigami captains valiantly stand up to the invaders, but this is a battle they might not be able to win!",
         "stock": 23
     },
@@ -126,7 +126,7 @@
         "category": "shonen",
         "volume": "69",
         "price": 9.45,
-        "pictureURL": "../assets/covers/bleach-69.webp",
+        "pictureURL": "/covers/bleach-69.webp",
         "description": "With the death of the Soul King at the hands of the Quincy King Yhwach, the world starts to crumble. Shinigami Captain-Commander Shunsui Kyōraku enlists Sōsuke Aizen to help in the war against the Quincy, but is relying on a traitor a wise move? And as Ichigo Kurosaki heads toward Yhwach, he runs into an unexpected figure!",
         "stock": 14
     },
@@ -136,7 +136,7 @@
         "category": "shonen",
         "volume": "70",
         "price": 9.45,
-        "pictureURL": "../assets/covers/bleach-70.webp",
+        "pictureURL": "/covers/bleach-70.webp",
         "description": "Jugo and Bazz spent their childhood together, but their paths diverged once they met Yhwach. They now stand against each other as enemies, but what's truly in their hearts? Meanwhile, Kenpachi Zaraki and Mayuri Kurotsuchi face off against the weirdest Quincy yet!",
         "stock": 11
     },
@@ -146,7 +146,7 @@
         "category": "shonen",
         "volume": "01",
         "price": 10.45,
-        "pictureURL": "../assets/covers/bsd-01.webp",
+        "pictureURL": "/covers/bsd-01.webp",
         "description": "After being dropped by an orphanage, the young man Atsushi Nakajima accidentally stops the suicide of a man named Osamu Dazai. Dazai and his partner Doppo Kunikida invite Atsushi to a meal regardless as they reveal themselves to be detectives working for the Detective Agency with their current job being a chase a wild silver tiger.",
         "stock": 18
     },
@@ -157,7 +157,7 @@
         "category": "shonen",
         "volume": "08",
         "price": 9.50,
-        "pictureURL": "../assets/covers/bsd-08.webp",
+        "pictureURL": "/covers/bsd-08.webp",
         "description": "Atsushi's far-fetched idea to form an alliance with the Mafia results in a summit between crime boss Ougai Mori and Armed Detective president Yukichi Fukuzawa. But when negotiations fail, Dazai has no choice but to infiltrate enemy territory alone to secure Q. There, Dazai runs into some unexpected trouble...until a familiar man appears before him...!",
         "stock": 16
     },
@@ -167,7 +167,7 @@
         "category": "shonen",
         "volume": "25",
         "price": 11.45,
-        "pictureURL": "../assets/covers/bsd-25.webp",
+        "pictureURL": "/covers/bsd-25.webp",
         "description": "Standing in the way of Dazai and Sigma’s escape from Meursault is none other than Chuuya Nakahara—now reduced to Dostoyevsky’s vampiric puppet. If Dazai wants to come out of Gogol’s deadly game alive, he’ll have no choice but to say farewell to his onetime partner! Meanwhile, back at the airport, the rest of the Armed Detective Agency are pulling out every trick in the book to keep the Decay of the Angel’s plan from bearing fruit. But faced with the Hunting Dogs’ overwhelming strength and steadfast loyalty to Fukuchi, do they stand a chance?",
         "stock": 12
     },
@@ -177,7 +177,7 @@
         "category": "seinen",
         "volume": "02",
         "price": 11.45,
-        "pictureURL": "../assets/covers/dmc5-02.webp",
+        "pictureURL": "/covers/dmc5-02.webp",
         "description": "The spin-off of the latest title, Devil May Cry 5, has begun with a bang! The main character is V, a mysterious man who uses three demons. In addition to the secret of his birth, his encounter with the demons, and the prequel to the main story leading up to the contract, the tale is told from the perspective of V that is exclusive to the spin-off!",
         "stock": 68
     },
@@ -187,7 +187,7 @@
         "category": "seinen",
         "volume": "03",
         "price": 10.25,
-        "pictureURL": "../assets/covers/dmc5-03.webp",
+        "pictureURL": "/covers/dmc5-03.webp",
         "description": "The spin-off of the latest title, Devil May Cry 5, has begun with a bang! The main character is V, a mysterious man who uses three demons. In addition to the secret of his birth, his encounter with the demons, and the prequel to the main story leading up to the contract, the tale is told from the perspective of V that is exclusive to the spin-off!",
         "stock": 11
     },
@@ -197,7 +197,7 @@
         "category": "seinen",
         "volume": "04",
         "price": 10.25,
-        "pictureURL": "../assets/covers/dmc5-04.webp",
+        "pictureURL": "/covers/dmc5-04.webp",
         "description": "The spin-off of the latest title, Devil May Cry 5, has begun with a bang! The main character is V, a mysterious man who uses three demons. In addition to the secret of his birth, his encounter with the demons, and the prequel to the main story leading up to the contract, the tale is told from the perspective of V that is exclusive to the spin-off!",
         "stock": 11
     },
@@ -207,7 +207,7 @@
         "category": "seinen",
         "volume": "05",
         "price": 11.25,
-        "pictureURL": "../assets/covers/dmc5-05.webp",
+        "pictureURL": "/covers/dmc5-05.webp",
         "description": "The spin-off of the latest title, Devil May Cry 5, has begun with a bang! The main character is V, a mysterious man who uses three demons. In addition to the secret of his birth, his encounter with the demons, and the prequel to the main story leading up to the contract, the tale is told from the perspective of V that is exclusive to the spin-off!",
         "stock": 9
     },
@@ -218,7 +218,7 @@
         "category": "shojo",
         "volume": "21",
         "price": 15.25,
-        "pictureURL": "../assets/covers/furuba-21.webp",
+        "pictureURL": "/covers/furuba-21.webp",
         "description": "The curse is crumbling, and Akito is doing anything to clutch at the broken threads that remain. Does the end of the curse mean catastrophe for the members of the zodiac, or will it bring the much needed healing they've all dreamed of? Tohru's bright love and generosity will become a beacon of hope in the dark...!",
         "stock": 11
     },
@@ -228,7 +228,7 @@
         "category": "shonen",
         "volume": "01",
         "price": 9.76,
-        "pictureURL": "../assets/covers/haikyuu-01.webp",
+        "pictureURL": "/covers/haikyuu-01.webp",
         "description": "Ever since he saw the legendary player known as “the Little Giant” compete at the national volleyball finals, Shoyo Hinata has been aiming to be the best volleyball player ever! Who says you need to be tall to play volleyball when you can jump higher than anyone else?\nAfter losing his first and last volleyball match against Tobio Kageyama, “the King of the Court,” Shoyo Hinata swears to become his rival after graduating middle school. But what happens when the guy he wants to defeat ends up being his teammate?!",
         "stock": 11
     },
@@ -239,7 +239,7 @@
         "category": "shonen",
         "volume": "03",
         "price": 8.46,
-        "pictureURL": "../assets/covers/haikyuu-03.webp",
+        "pictureURL": "/covers/haikyuu-03.webp",
         "description": "Ever since he saw the legendary player known as “the Little Giant” compete at the national volleyball finals, Shoyo Hinata has been aiming to be the best volleyball player ever! Who says you need to be tall to play volleyball when you can jump higher than anyone else?\nKarasuno has successfully defeated Tohru Oikawa and Aoba Johsai in their practice match, but the team’s future doesn’t look so bright. The match uncovered serious holes in Karasuno’s defense, which would be fatal in a real game! What they need is a defense expert, a libero, to cover their holes for them. It turns out Karasuno does have a libero named Yu Nishinoya, but he was suspended for one week for violent behavior! And he’s even shorter than Hinata!",
         "stock": 14
     },
@@ -250,7 +250,7 @@
         "category": "shonen",
         "volume": "17",
         "price": 8.46,
-        "pictureURL": "../assets/covers/haikyuu-17.webp",
+        "pictureURL": "/covers/haikyuu-17.webp",
         "description": "Ever since he saw the legendary player known as “the Little Giant” compete at the national volleyball finals, Shoyo Hinata has been aiming to be the best volleyball player ever! Who says you need to be tall to play volleyball when you can jump higher than anyone else?\nIt’s the final set of the Spring Tournament qualifier semifinals, and Aoba Johsai has game point! With their backs against the wall yet again, Karasuno digs deep and throws their greatest efforts into one final rally. Will they be able to take the rally and overcome the Great King?!",
         "stock": 10
     },
@@ -260,7 +260,7 @@
         "category": "seinen",
         "volume": "02",
         "price": 11.46,
-        "pictureURL": "../assets/covers/hellsing-02.webp",
+        "pictureURL": "/covers/hellsing-02.webp",
         "description": "The Hellsing Organization is under siege by the undead Nazi army of the Millennium Project, who are turning the streets of London into rivers of blood and the citizenry into a legion of abominations. And with this murderous conflict at a fever pitch, the Vatican sees an opportunity to take down both Millennium and Hellsing in one swift stroke!",
         "stock": 12
     },
@@ -270,7 +270,7 @@
         "category": "seinen",
         "volume": "05",
         "price": 11.56,
-        "pictureURL": "../assets/covers/hellsing-05.webp",
+        "pictureURL": "/covers/hellsing-05.webp",
         "description": "The world has become a bloody fever dream with humanity on the brink of annihilation as the Millennium Project’s army of Nazi undead prepare for the final assault on England aboard the captured aircraft carrier Eagle. Only the Hellsing Organization’s vampire lord, Alucard, can hope to blunt the unholy onslaught—which is exactly what the Millennium Project’s dark masters are counting on!",
         "stock": 16
     },
@@ -280,7 +280,7 @@
         "category": "seinen",
         "volume": "10",
         "price": 10.56,
-        "pictureURL": "../assets/covers/hellsing-10.webp",
+        "pictureURL": "/covers/hellsing-10.webp",
         "description": "The curtain raises on the final act of the apocalyptic war between vampires, Nazis, Catholics, werewolves, Protestants, and mercenaries, and the outcome is still in doubt. Amidst the blood-drenched wreckage of London, the champions of light and darkness face off in a final showdown that will determine the future of humanity . . . or see humanity’s fall!",
         "stock": 11
     },
@@ -290,7 +290,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 12.69,
-        "pictureURL": "../assets/covers/holic-01.webp",
+        "pictureURL": "/covers/holic-01.webp",
         "description": "Watanuki Kimihiro is haunted by visions of ghosts and spirits. Seemingly by chance, he encounters a mysterious witch named Yuuko, who claims she can help. In desperation, he accepts, but realizes that he's just been tricked into working for Yuuko in order to pay off the cost of her services. Soon he's employed in her little shop- a job which turns out to be nothing like his previous work experience!",
         "stock": 26
     },
@@ -300,7 +300,7 @@
         "category": "seinen",
         "volume": "05",
         "price": 12.66,
-        "pictureURL": "../assets/covers/holic-05.webp",
+        "pictureURL": "/covers/holic-05.webp",
         "description": "The spirit of rain, Ame-Warashi, requests Watanuki's help to save a friend of hers. Watanuki and Dōmeki go to a Hydrangea macrophylla directed by Ame-warashi. Dragged by a black aura, Watanuki finds the spirit of a girl who cannot go to the afterlife. After Domeki helps Watanuki escape, Watanuki finds the girl's corpse and tries to contact her family to bury her. In exchange for saving the Hydrangea Macrophyla from the corpse, Watanuki is given Kudakitsune, a Kuda-gitsune that devours the mushi wings that a girl manifested due to her uncontrollable emotions. With the Kuda-gitsune having grown enormous, Yūko sends it alongside Watanuki to a world inside a jug to return to a smaller side. There, Watanuki finds Zashiki-Warashi and gives her the White Day present, while Yūko is able to find the location from the magician who created the mushi.",
         "stock": 26
     },
@@ -310,7 +310,7 @@
         "category": "seinen",
         "volume": "10",
         "price": 11.76,
-        "pictureURL": "../assets/covers/holic-10.webp",
+        "pictureURL": "/covers/holic-10.webp",
         "description": "A cat spirit comes to Yūko as she wishes to recover water from a well, and Watanuki and Dōmeki end up collecting it. Near the well, they find an abandoned mansion as well as a woman who never moves from her chair. In the next days, Watanuki is forced to enter into the mansion as he loses Yūko's cloth for the water jugs. He realizes that the woman is in fact a corpse, and Yūko reveals to him that various of the bad things happening to him is the result of staying in touch with Himawari. While walking in school with Himawari, Watanuki falls from its second floor, almost dying. Haruka manages to save Watanuki in a dream thanks to the payments Himawari, Dōmeki and the other Syaoran made to Yūko. As Watanuki recovers, Himawari tells him how she gives bad luck to people, but Watanuki still wishes to be with her. Yūko later gives Watanuki an egg as a payment for collecting the water which hatches into a small bird that is invulnerable to Himawari's touch.",
         "stock": 45
     },
@@ -320,7 +320,7 @@
         "category": "seinen",
         "volume": "17",
         "price": 11.56,
-        "pictureURL": "../assets/covers/holic-17.webp",
+        "pictureURL": "/covers/holic-17.webp",
         "description": "Lady Jorōgumo comes to the shop as a client who wishes Watanuki to find her a carmesi pearl. While trying to enter into a dream from a person in the building that contains it, Watanuki receives a call from Himawari who has gotten married, but has been unable to go to the shop due to how her bad luck would affect it. In a dream, Watanuki gets in contact with a woman from the building who has been physically abused because of her long lifespan. The Yaobikuni gives Watanuki a pearl when she cries, and he gives it to Jorōgumo. In the chapter, Watanuki gives Dōmeki a thimble as a birthday present which manifests into an arrow to exorcise spirits that may attack him.",
         "stock": 25
     },
@@ -330,7 +330,7 @@
         "category": "seinen",
         "volume": "19",
         "price": 10.56,
-        "pictureURL": "../assets/covers/holic-19.webp",
+        "pictureURL": "/covers/holic-19.webp",
         "description": "As Setsubun comes in the lunar calendar, Watanuki makes a spell to obtain chrysanthemum wine and give it to his friends. He also continues doing jobs in the shop such as discover the identity of a decoration by meeting its spirit, and helping the soul of a deceased woman find her lover's soul. Over a hundred years later, Watanuki has a dream which Yūko left him, in which she makes him realize he has become powerful enough to leave the shop. However, Watanuki decides to stay there until he finds the meets the real Yūko with Dōmeki's great-grandson being his assistant.",
         "stock": 15
     },
@@ -340,7 +340,7 @@
         "category": "shonen",
         "volume": "36",
         "price": 16.86,
-        "pictureURL": "../assets/covers/hunter-x-hunter-36.webp",
+        "pictureURL": "/covers/hunter-x-hunter-36.webp",
         "description": "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters. \nThe princes begin to move against each other as the Succession War continues on the Whale Ship when Second Prince Camilla attempts to assassinate First Prince Benjamin. Meanwhile, something fishy is going on in Thirteenth Prince Marayam’s room. The Spiders appear and make their move as well! Will Kurapika be able to keep up with the madness and",
         "stock": 36
     },
@@ -350,7 +350,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 17.86,
-        "pictureURL": "../assets/covers/i-got-a-new-skill-every-time-i-was-exiled-01.webp",
+        "pictureURL": "/covers/i-got-a-new-skill-every-time-i-was-exiled-01.webp",
         "description": "An adventurer named Ed was exiled from his party because he was considered useless, but instead of being sad and upset he was actually happy!!? \n It turns out that it's not without reason that he feels happy when he's exiled from his party, because every time he's been exiled he will receive a skill that makes him even more invincible...",
         "stock": 22
     },
@@ -360,7 +360,7 @@
         "category": "josei",
         "volume": "04",
         "price": 11.26,
-        "pictureURL": "../assets/covers/im-in-love-with-the-villainess-01.webp",
+        "pictureURL": "/covers/im-in-love-with-the-villainess-01.webp",
         "description": "In order to clear the name of ‘Emi’, a girl who had reincarnated as Remilia, the villainess of an otome game, the real Remilia who had been watching all along inside awakens. \n Now it's time for the true villainess's revenge to begin!",
         "stock": 23
     },
@@ -370,7 +370,7 @@
         "category": "josei",
         "volume": "05",
         "price": 14.86,
-        "pictureURL": "../assets/covers/ill-become-a-villainess-who-goes-down-in-history-01.webp",
+        "pictureURL": "/covers/ill-become-a-villainess-who-goes-down-in-history-01.webp",
         "description": "I don't want a world full of only pretty things! I'll become a villainess who will go down in history!! \n For someone who hates a typical good girl heroine, I was reincarnated as my favorite otome-game villainess! Since my wish has been granted, I'll be the number one villainess who will go down in history! For that to happen, I need to be strong and intelligent! Also, although I'm just... doing my best, the more of a villainess I become, the more I'm liked by the Prince?! Can I really go down in history―?!",
         "stock": 36
     },
@@ -380,7 +380,7 @@
         "category": "josei",
         "volume": "08",
         "price": 10.10,
-        "pictureURL": "../assets/covers/kaijuu-n8-08.webp",
+        "pictureURL": "/covers/kaiju-n8-08.webp",
         "description": "Kafka hopes to one day keep his pact with his childhood friend Mina to join the Japan Defense Force and fight by her side. But while she’s out neutralizing kaiju as Third Division captain, Kafka is stuck cleaning up the aftermath of her battles. When a sudden rule change makes Kafka eligible for the Defense Force, he decides to try out for the squad once more. There’s just one problem. He’s made the Defense Force’s neutralization list under the code name Kaiju No. 8.",
         "stock": 12
     },
@@ -390,7 +390,7 @@
         "category": "shojo",
         "volume": "01",
         "price": 12.10,
-        "pictureURL": "../assets/covers/kimi-no-todoke-01.webp",
+        "pictureURL": "/covers/kimi-no-todoke-01.webp",
         "description": "Sawako Kuronuma is the perfect heroine… for a horror movie. With her jet-black hair, sinister smile and silent demeanor, she's often mistaken for the haunting movie character Sadako. But behind her scary facade is a very misunderstood teenager. Too shy to fit in, all she wants to do is make some friends. But when a popular boy in class befriends her, she's sure to make more than just that–she's about to make some enemies too!",
         "stock": 12
     },
@@ -400,7 +400,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 13.23,
-        "pictureURL": "../assets/covers/mononoke-karasa-01.webp",
+        "pictureURL": "/covers/mononoke-karasa-01.webp",
         "description": "Asa and Kame meet on their first day of serving in the Ooku - and quickly discover that things there are more complicated than they imagined. A strange cult, an unexplained delay in a palace festival, and even samurai in the Ooku are just some of the oddities they encounter. And what does the Medicine Seller, who peddles love potions and mononoke exorcisms, have to do with any of this...?",
         "stock": 10
     },
@@ -410,7 +410,7 @@
         "category": "shojo",
         "volume": "01",
         "price": 14.20,
-        "pictureURL": "../assets/covers/nana-01.webp",
+        "pictureURL": "/covers/nana-01.webp",
         "description": "Nana Hachi Komatsu hopes that moving to Tokyo will help her make a clean start and leave her capricious love life behind her. Nana Osaki, who arrives in the city at the same time, has plans to score big in the world of rock'n'roll. Although these two young women come from different backgrounds, they quickly become best friends in a whirlwind world of sex, music, fashion, gossip and all-night parties! \n Nana Komatsu is a young woman who's endured an unending string of boyfriend problems. Moving to Tokyo, she's hoping to take control of her life and put all those messy misadventures behind her. She's looking for love and she's hoping to find it in the big city. \n Nana Osaki, on the other hand, is cool, confident and focused. She swaggers into town and proceeds to kick down the doors to Tokyo's underground punk scene. She's got a dream and won't give up until she becomes Japan's No. 1 rock'n'roll superstar.",
         "stock": 17
     },
@@ -420,7 +420,7 @@
         "category": "shojo",
         "volume": "05",
         "price": 13.20,
-        "pictureURL": "../assets/covers/nana-05.webp",
+        "pictureURL": "/covers/nana-05.webp",
         "description": "Nana K. is going home--for an awesome Trapnest concert! She drags Nana O. along, convinced that somehow Ren will sense his ex-flame in the audience. But life is never that easy, and Nana O. isn't sure if she even wants Ren back. As for Nana K., is she prepared for Trapnest to come down off the stage and into her life, or will her fan-girl attitude land her in a heap of trouble?",
         "stock": 11
     },
@@ -430,7 +430,7 @@
         "category": "shojo",
         "volume": "11",
         "price": 13.25,
-        "pictureURL": "../assets/covers/nana-11.webp",
+        "pictureURL": "/covers/nana-11.webp",
         "description": "With the tabloids still out for blood, Nana and her Blast bandmates move into a weird dorm building run by their agency. But they've barely got enough time to settle into their new digs because their crammed schedule has them running from music studio to TV interview. The stress of band life and dealing with a disintegrating Ren have started to take their toll on Nana. If she collapses now, will she ever get back up?",
         "stock": 15
     },
@@ -440,7 +440,7 @@
         "category": "shojo",
         "volume": "21",
         "price": 13.30,
-        "pictureURL": "../assets/covers/nana-21.webp",
+        "pictureURL": "/covers/nana-21.webp",
         "description": "Tragedy strikes as the Search Weekly team takes their snooping too far! Hounded to the limit by remorseless reporters, Ren spins his car off the icy road in a horrible accident that will change the course of everyone's future...",
         "stock": 36
     },
@@ -450,7 +450,7 @@
         "category": "shonen",
         "volume": "01",
         "price": 9.50,
-        "pictureURL": "../assets/covers/naruto-01.webp",
+        "pictureURL": "/covers/naruto-01.webp",
         "description": "Naruto is a young shinobi with an incorrigible knack for mischief. He’s got a wild sense of humor, but Naruto is completely serious about his mission to be the world’s greatest ninja! \n Twelve years ago the Village Hidden in the Leaves was attacked by a fearsome threat. A nine-tailed fox spirit claimed the life of the village leader, the Hokage, and many others. Today, the village is at peace and a troublemaking kid named Naruto is struggling to graduate from Ninja Academy. His goal may be to become the next Hokage, but his true destiny will be much more complicated. The adventure begins now!",
         "stock": 12
     },
@@ -460,7 +460,7 @@
         "category": "shonen",
         "volume": "12",
         "price": 9.50,
-        "pictureURL": "../assets/covers/naruto-12.webp",
+        "pictureURL": "/covers/naruto-12.webp",
         "description": "At last, the finals of the third phase of the Chûnin Selection Exams begin! In the first battle, Naruto faces off against Neji, widely considered to be the most talented young ninja in Konohagakure. With his newfound ability to access the power of the Nine-Tailed Fox, can Naruto beat his genius opponent? Or will Neji overcome his family's troubled history to triumph in the match?",
         "stock": 26
     },
@@ -471,7 +471,7 @@
         "category": "shonen",
         "volume": "29",
         "price": 9.50,
-        "pictureURL": "../assets/covers/naruto-29.webp",
+        "pictureURL": "/covers/naruto-29.webp",
         "description": "Naruto's teacher and Sasuke's brother finally face each other down. Plus, Gaara and Naruto discover more about their common enemy...the Akatsuki!",
         "stock": 58
     },
@@ -482,7 +482,7 @@
         "category": "shonen",
         "volume": "38",
         "price": 9.50,
-        "pictureURL": "../assets/covers/naruto-38.webp",
+        "pictureURL": "/covers/naruto-38.webp",
         "description": "Naruto finds that his new jutsu is harder to handle than he thought. Meanwhile, Sasuke seems to be falling even more under Orochimaru's spell. Despite all Naruto's efforts, he may have finally lost his best friend forever. But he'll use all his skills as a ninja to keep that from happening!",
         "stock": 88
     },
@@ -493,7 +493,7 @@
         "category": "shonen",
         "volume": "45",
         "price": 9.50,
-        "pictureURL": "../assets/covers/naruto-45.webp",
+        "pictureURL": "/covers/naruto-45.webp",
         "description": "Sasuke and Naruto find that their powers are ever-increasing. Sasuke can now use the Mangekyo Sharingan in multiple ways, and Naruto may have become even more powerful than his fallen sensei, Jiraiya! But is anyone powerful enough to stop the ultimate attack as the Pains of the Akatsuki launch their deadly strike against Naruto's home village?!",
         "stock": 23
     },
@@ -504,7 +504,7 @@
         "category": "shojo",
         "volume": "01",
         "price": 11.52,
-        "pictureURL": "../assets/covers/nijiiro-days-01.webp",
+        "pictureURL": "/covers/nijiiro-days-01.webp",
         "description": "Natsuki is teased for being a hopeless romantic, Keiichi disguises his sadism with an angelic grin, Tsuyoshi is an otaku who can't read the air, and Tomoya is a frivolous playboy who likes his archenemy. The rainbow-colored story of (sometimes dubious) friendship and (mis)adventures in love of these four boys who spend their daily high school life by having fun starts when recently-dumped Natsuki received a pack of tissues from a girl wearing Santa costume in the streets on Christmas eve.",
         "stock": 13
     },
@@ -514,7 +514,7 @@
         "category": "josei",
         "volume": "01",
         "price": 14.63,
-        "pictureURL": "../assets/covers/nodame-cantabile-01.webp",
+        "pictureURL": "/covers/nodame-cantabile-01.webp",
         "description": "The son of a famous pianist, music student Shinichi Chiaki dreams of studying abroad and becoming a conductor like his mentor. Unfortunately, his fear of flying grounds his lofty plans! As he watches other classmates achieve what he has always wanted, Shinichi wonders if he should quit music altogether. \n Then one day he meets fellow student Megumi Noda, also known as Nodame. This oddball girl cannot cook, clean, or even read a music score, but she can play the piano in incomparable Cantabile style. And she teaches Chiaki something that he has forgotten: to enjoy his music, no matter where he is.",
         "stock": 16
     },
@@ -525,7 +525,7 @@
         "category": "josei",
         "volume": "02",
         "price": 17.10,
-        "pictureURL": "../assets/covers/nodame-cantabile-02.webp",
+        "pictureURL": "/covers/nodame-cantabile-02.webp",
         "description": "The son of a famous pianist, music student Shinichi Chiaki dreams of studying abroad and becoming a conductor like his mentor. Unfortunately, his fear of flying grounds his lofty plans! As he watches other classmates achieve what he has always wanted, Shinichi wonders if he should quit music altogether. \n Then one day he meets fellow student Megumi Noda, also known as Nodame. This oddball girl cannot cook, clean, or even read a music score, but she can play the piano in incomparable Cantabile style. And she teaches Chiaki something that he has forgotten: to enjoy his music, no matter where he is.",
         "stock": 26
     },
@@ -535,7 +535,7 @@
         "category": "shonen",
         "volume": "01",
         "price": 9.30,
-        "pictureURL": "../assets/covers/one-piece-01.webp",
+        "pictureURL": "/covers/one-piece-01.webp",
         "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber…at the cost of never being able to swim again! Years, later, Luffy sets off in search of the “One Piece,” said to be the greatest treasure in the world... \n As a child, Monkey D. Luffy was inspired to become a pirate by listening to the tales of the buccaneer Red-Haired Shanks. But his life changed when Luffy accidentally ate the Gum-Gum Devil Fruit and gained the power to stretch like rubber...at the cost of never being able to swim again! Years later, still vowing to become the king of the pirates, Luffy sets out on his adventure...one guy alone in a rowboat, in search of the legendary One Piece, said to be the greatest treasure in the world...",
         "stock": 18
     },
@@ -545,7 +545,7 @@
         "category": "shonen",
         "volume": "14",
         "price": 9.30,
-        "pictureURL": "../assets/covers/one-piece-14.webp",
+        "pictureURL": "/covers/one-piece-14.webp",
         "description": "Someone has given Dorry the Giant exploding ale and he's not happy! Assuming it was Luffy and crew, he launches an all-out attack and is soundly defeated by the rubbery power of the Gum-Gum Rocket! But mystery is afoot--if Luffy didn't slip",
         "stock": 13
     },
@@ -555,7 +555,7 @@
         "category": "shonen",
         "volume": "20",
         "price": 7.50,
-        "pictureURL": "../assets/covers/one-piece-20.webp",
+        "pictureURL": "/covers/one-piece-20.webp",
         "description": "When leaving Rainbase to head off the rebels in the capital city of Alubarna, Luffy gets pulled aside by Crocodile for some cozy one-on-one time! With only three minutes to fight, can Luffy take on the sand pirate on his domain?! The rest of the crew must help Vivi stop the rebels, but the formidable Officer Agents have been waiting for them at the city gates! Will Vivi be in time to stop the inevitable clash between the rebels and the Army?!",
         "stock": 36
     },
@@ -565,7 +565,7 @@
         "category": "shonen",
         "volume": "29",
         "price": 8.50,
-        "pictureURL": "../assets/covers/one-piece-29.webp",
+        "pictureURL": "/covers/one-piece-29.webp",
         "description": "The Straw Hats have been stuck in a struggle for survival ever since Eneru made the ominous prediction that in three hours, only five humans will be left standing on the island. Separated from each other, the crew eventually cross paths on the battlefield where the war for Skypiea is being waged!",
         "stock": 10
     },
@@ -575,7 +575,7 @@
         "category": "shonen",
         "volume": "47",
         "price": 8.99,
-        "pictureURL": "../assets/covers/one-piece-47.webp",
+        "pictureURL": "/covers/one-piece-47.webp",
         "description": "The Straw Hats have been stuck in a struggle for survival ever since Eneru made the ominous prediction that in three hours, only five humans will be left standing on the island. Separated from each other, the crew eventually cross paths on the battlefield where the war for Skypiea is being waged!",
         "stock": 11
     },
@@ -585,7 +585,7 @@
         "category": "shonen",
         "volume": "54",
         "price": 9.99,
-        "pictureURL": "../assets/covers/one-piece-54.webp",
+        "pictureURL": "/covers/one-piece-54.webp",
         "description": "With his brother Ace locked up in the Naval prison Impel Down, Luffy doesn't have much time to rescue him before his imminent execution. While he may have found a way to sneak into the maximum-security prison, finding Ace isn't going to be as easy. But a chance reunion with some former enemies just might be a blessing in disguise!",
         "stock": 36
     },
@@ -595,7 +595,7 @@
         "category": "josei",
         "volume": "01",
         "price": 19.99,
-        "pictureURL": "../assets/covers/parakiss-01.webp",
+        "pictureURL": "/covers/parakiss-01.webp",
         "description": "Yukari wants nothing more than to make her parents happy by studying hard and getting into a good college. One afternoon, however, she is kidnapped by a group of self-styled fashion-obsessed artists who call themselves Paradise Kiss. Yukari suddenly finds herself flung into the roller-coaster life of the fashion world, guided by George, art-snob extraordinaire. In a glamorous makeover of body, mind and soul, she is turned from a hapless bookworm into her friends own exclusive clothing model. \n In this manga we meet characters from Gokinjo Monogatari like Mikako (and her little sister, Miwako - she's in ParaKiss group) and Arashi's father (only poster, but still) and new like Isabella.",
         "stock": 13
     },
@@ -605,7 +605,7 @@
         "category": "josei",
         "volume": "02",
         "price": 18.99,
-        "pictureURL": "../assets/covers/parakiss-02.webp",
+        "pictureURL": "/covers/parakiss-02.webp",
         "description": "Yukari wants nothing more than to make her parents happy by studying hard and getting into a good college. One afternoon, however, she is kidnapped by a group of self-styled fashion-obsessed artists who call themselves Paradise Kiss. Yukari suddenly finds herself flung into the roller-coaster life of the fashion world, guided by George, art-snob extraordinaire. In a glamorous makeover of body, mind and soul, she is turned from a hapless bookworm into her friends own exclusive clothing model. \n In this manga we meet characters from Gokinjo Monogatari like Mikako (and her little sister, Miwako - she's in ParaKiss group) and Arashi's father (only poster, but still) and new like Isabella.",
         "stock": 23
     },
@@ -615,7 +615,7 @@
         "category": "josei",
         "volume": "03",
         "price": 19.90,
-        "pictureURL": "../assets/covers/parakiss-03.webp",
+        "pictureURL": "/covers/parakiss-03.webp",
         "description": "Yukari wants nothing more than to make her parents happy by studying hard and getting into a good college. One afternoon, however, she is kidnapped by a group of self-styled fashion-obsessed artists who call themselves Paradise Kiss. Yukari suddenly finds herself flung into the roller-coaster life of the fashion world, guided by George, art-snob extraordinaire. In a glamorous makeover of body, mind and soul, she is turned from a hapless bookworm into her friends own exclusive clothing model. \n In this manga we meet characters from Gokinjo Monogatari like Mikako (and her little sister, Miwako - she's in ParaKiss group) and Arashi's father (only poster, but still) and new like Isabella.",
         "stock": 15
     },
@@ -625,7 +625,7 @@
         "category": "josei",
         "volume": "04",
         "price": 18.98,
-        "pictureURL": "../assets/covers/parakiss-04.webp",
+        "pictureURL": "/covers/parakiss-04.webp",
         "description": "Yukari wants nothing more than to make her parents happy by studying hard and getting into a good college. One afternoon, however, she is kidnapped by a group of self-styled fashion-obsessed artists who call themselves Paradise Kiss. Yukari suddenly finds herself flung into the roller-coaster life of the fashion world, guided by George, art-snob extraordinaire. In a glamorous makeover of body, mind and soul, she is turned from a hapless bookworm into her friends own exclusive clothing model. \n In this manga we meet characters from Gokinjo Monogatari like Mikako (and her little sister, Miwako - she's in ParaKiss group) and Arashi's father (only poster, but still) and new like Isabella.",
         "stock": 21
     },
@@ -636,7 +636,7 @@
         "category": "josei",
         "volume": "05",
         "price": 18.99,
-        "pictureURL": "../assets/covers/parakiss-05.webp",
+        "pictureURL": "/covers/parakiss-05.webp",
         "description": "Yukari wants nothing more than to make her parents happy by studying hard and getting into a good college. One afternoon, however, she is kidnapped by a group of self-styled fashion-obsessed artists who call themselves Paradise Kiss. Yukari suddenly finds herself flung into the roller-coaster life of the fashion world, guided by George, art-snob extraordinaire. In a glamorous makeover of body, mind and soul, she is turned from a hapless bookworm into her friends own exclusive clothing model. \n In this manga we meet characters from Gokinjo Monogatari like Mikako (and her little sister, Miwako - she's in ParaKiss group) and Arashi's father (only poster, but still) and new like Isabella.",
         "stock": 13
     },
@@ -646,7 +646,7 @@
         "category": "shojo",
         "volume": "02",
         "price": 23.99,
-        "pictureURL": "../assets/covers/sailor-moon-02.webp",
+        "pictureURL": "/covers/sailor-moon-02.webp",
         "description": "A year before meeting Sailor Moon--and her destiny as a member of the Sailor Guardians--Minako was the first hero to find her calling. At age 13, all this teen can talk about is finding a boyfriend, but her dreams change when a talking cat with a crescent moon on his forehead reveals her true identity as the Soldier of Justice, Sailor V! Miracles have returned to modern Tokyo, and she must use her powers to stop the Dark Agency, which is trying to manipulate Japan's entertainment industry and enslave the population..",
         "stock": 23
     },
@@ -656,7 +656,7 @@
         "category": "shojo",
         "volume": "03",
         "price": 25.85,
-        "pictureURL": "../assets/covers/sailor-moon-03.webp",
+        "pictureURL": "/covers/sailor-moon-03.webp",
         "description": "A year before meeting Sailor Moon--and her destiny as a member of the Sailor Guardians--Minako was the first hero to find her calling. At age 13, all this teen can talk about is finding a boyfriend, but her dreams change when a talking cat with a crescent moon on his forehead reveals her true identity as the Soldier of Justice, Sailor V! Miracles have returned to modern Tokyo, and she must use her powers to stop the Dark Agency, which is trying to manipulate Japan's entertainment industry and enslave the population..",
         "stock": 16
     },
@@ -666,7 +666,7 @@
         "category": "shojo",
         "volume": "08",
         "price": 27.85,
-        "pictureURL": "../assets/covers/sailor-moon-08.webp",
+        "pictureURL": "/covers/sailor-moon-08.webp",
         "description": "Teenager Usagi is not the best athlete, she's never gotten good grades, and, well, she's a bit of a crybaby. But when she meets a talking cat, she begins a journey that will teach her she has a well of great strength just beneath the surface and the heart to inspire and stand up for her friends as Sailor Moon!",
         "stock": 13
     },
@@ -677,7 +677,7 @@
         "category": "shojo",
         "volume": "15",
         "price": 28.98,
-        "pictureURL": "../assets/covers/sailor-moon-15.webp",
+        "pictureURL": "/covers/sailor-moon-15.webp",
         "description": "Teenager Usagi is not the best athlete, she's never gotten good grades, and, well, she's a bit of a crybaby. But when she meets a talking cat, she begins a journey that will teach her she has a well of great strength just beneath the surface and the heart to inspire and stand up for her friends as Sailor Moon!",
         "stock": 12
     },
@@ -687,7 +687,7 @@
         "category": "shojo",
         "volume": "17",
         "price": 26.98,
-        "pictureURL": "../assets/covers/sailor-moon-17.webp",
+        "pictureURL": "/covers/sailor-moon-17.webp",
         "description": "Teenager Usagi is not the best athlete, she's never gotten good grades, and, well, she's a bit of a crybaby. But when she meets a talking cat, she begins a journey that will teach her she has a well of great strength just beneath the surface and the heart to inspire and stand up for her friends as Sailor Moon!",
         "stock": 13
     },
@@ -697,7 +697,7 @@
         "category": "josei",
         "volume": "01",
         "price": 12.98,
-        "pictureURL": "../assets/covers/saiyuki-reload-01.webp",
+        "pictureURL": "/covers/saiyuki-reload-01.webp",
         "description": "The fearsome foursome continue their journey west towards Shangri-La, encountering new challenges and new adventures along the way. Their legend precedes them, but not always in the way one might expect. The Minus Wave that apparently drove all the youkai in the land mad looks like it might have missed one, as Sanzo, Gojyo, Hakkai and Goku meet a lone guardian and the band of children he cares for. Fear and misunderstanding run throughout this particular leg of the journey, including between the members of the Sanzo group!",
         "stock": 11
     },
@@ -707,7 +707,7 @@
         "category": "josei",
         "volume": "10",
         "price": 12.55,
-        "pictureURL": "../assets/covers/saiyuki-reload-10.webp",
+        "pictureURL": "/covers/saiyuki-reload-10.webp",
         "description": "The fearsome foursome continue their journey west towards Shangri-La, encountering new challenges and new adventures along the way. Their legend precedes them, but not always in the way one might expect. The Minus Wave that apparently drove all the youkai in the land mad looks like it might have missed one, as Sanzo, Gojyo, Hakkai and Goku meet a lone guardian and the band of children he cares for. Fear and misunderstanding run throughout this particular leg of the journey, including between the members of the Sanzo group!",
         "stock": 13
     },
@@ -717,7 +717,7 @@
         "category": "josei",
         "volume": "02",
         "price": 13.00,
-        "pictureURL": "../assets/covers/sakamichi-no-apollon-02.webp",
+        "pictureURL": "/covers/sakamichi-no-apollon-02.webp",
         "description": "Nishimi Kaoru has moved from city to city and school to school because of his father’s job. So the first day at his new school was just routine for him. Being intellectual and the new transfer student, he has always been seen as an outcast and all Kaoru had to do was bear it until the next time he moved. But things were slightly different this time. First, he started to get close to the class president, Mukae Ritsuko, and, secondly, unlikely as it seemed, grew closer to Kawabuchi Sentaro. Sentaro was infamous for getting into fights, skipping class and was an overall bad boy. Strangely enough, the three of them find common ground in music, namely jazz, and Kaoru finds himself actually enjoying the new town.",
         "stock": 13
     },
@@ -727,7 +727,7 @@
         "category": "josei",
         "volume": "07",
         "price": 14.12,
-        "pictureURL": "../assets/covers/sakamichi-no-apollon-07.webp",
+        "pictureURL": "/covers/sakamichi-no-apollon-07.webp",
         "description": "Nishimi Kaoru has moved from city to city and school to school because of his father’s job. So the first day at his new school was just routine for him. Being intellectual and the new transfer student, he has always been seen as an outcast and all Kaoru had to do was bear it until the next time he moved. But things were slightly different this time. First, he started to get close to the class president, Mukae Ritsuko, and, secondly, unlikely as it seemed, grew closer to Kawabuchi Sentaro. Sentaro was infamous for getting into fights, skipping class and was an overall bad boy. Strangely enough, the three of them find common ground in music, namely jazz, and Kaoru finds himself actually enjoying the new town.",
         "stock": 10
     },
@@ -737,7 +737,7 @@
         "category": "josei",
         "volume": "Extra",
         "price": 15.10,
-        "pictureURL": "../assets/covers/sakamichi-no-apollon-extra.webp",
+        "pictureURL": "/covers/sakamichi-no-apollon-extra.webp",
         "description": "Nishimi Kaoru has moved from city to city and school to school because of his father’s job. So the first day at his new school was just routine for him. Being intellectual and the new transfer student, he has always been seen as an outcast and all Kaoru had to do was bear it until the next time he moved. But things were slightly different this time. First, he started to get close to the class president, Mukae Ritsuko, and, secondly, unlikely as it seemed, grew closer to Kawabuchi Sentaro. Sentaro was infamous for getting into fights, skipping class and was an overall bad boy. Strangely enough, the three of them find common ground in music, namely jazz, and Kaoru finds himself actually enjoying the new town.",
         "stock": 11
     },
@@ -747,7 +747,7 @@
         "category": "josei",
         "volume": "06",
         "price": 12.12,
-        "pictureURL": "../assets/covers/sakamichi-no-apollon-06.webp",
+        "pictureURL": "/covers/sakamichi-no-apollon-06.webp",
         "description": "Nishimi Kaoru has moved from city to city and school to school because of his father’s job. So the first day at his new school was just routine for him. Being intellectual and the new transfer student, he has always been seen as an outcast and all Kaoru had to do was bear it until the next time he moved. But things were slightly different this time. First, he started to get close to the class president, Mukae Ritsuko, and, secondly, unlikely as it seemed, grew closer to Kawabuchi Sentaro. Sentaro was infamous for getting into fights, skipping class and was an overall bad boy. Strangely enough, the three of them find common ground in music, namely jazz, and Kaoru finds himself actually enjoying the new town.",
         "stock": 19
     },
@@ -757,7 +757,7 @@
         "category": "shojo",
         "volume": "01",
         "price": 15.23,
-        "pictureURL": "../assets/covers/scc-01.webp",
+        "pictureURL": "/covers/scc-01.webp",
         "description": "Sakura Kinomoto was just an average 4th Grader - loved P.E., hated math - until one day, while looking through her father's library, Sakura found the Clow, an enchanted book designed to hold a set of magical Clow Cards. But when Sakura opened the book, it was empty. Talk about disasters!! Cerberus, the Creature of the Seal, emerged from the cover of the book and told Sakura the cards must be returned to the book. If the cards aren't in the book, they come to life and do evil!, Kero formed a contract with Sakura making her a Cardcaptor and together with Sakura's best friend, Tomoyo, they embark on a mystical journey to capture all the Clow Cards before the Cards can wreak chaos and destruction.",
         "stock": 12
     },
@@ -767,7 +767,7 @@
         "category": "shojo",
         "volume": "02",
         "price": 16.23,
-        "pictureURL": "../assets/covers/scc-02.webp",
+        "pictureURL": "/covers/scc-02.webp",
         "description": "Sakura Kinomoto was just an average 4th Grader - loved P.E., hated math - until one day, while looking through her father's library, Sakura found the Clow, an enchanted book designed to hold a set of magical Clow Cards. But when Sakura opened the book, it was empty. Talk about disasters!! Cerberus, the Creature of the Seal, emerged from the cover of the book and told Sakura the cards must be returned to the book. If the cards aren't in the book, they come to life and do evil!, Kero formed a contract with Sakura making her a Cardcaptor and together with Sakura's best friend, Tomoyo, they embark on a mystical journey to capture all the Clow Cards before the Cards can wreak chaos and destruction.",
         "stock": 12
     },
@@ -778,7 +778,7 @@
         "category": "shojo",
         "volume": "03",
         "price": 17.56,
-        "pictureURL": "../assets/covers/scc-03.webp",
+        "pictureURL": "/covers/scc-03.webp",
         "description": "Sakura Kinomoto was just an average 4th Grader - loved P.E., hated math - until one day, while looking through her father's library, Sakura found the Clow, an enchanted book designed to hold a set of magical Clow Cards. But when Sakura opened the book, it was empty. Talk about disasters!! Cerberus, the Creature of the Seal, emerged from the cover of the book and told Sakura the cards must be returned to the book. If the cards aren't in the book, they come to life and do evil!, Kero formed a contract with Sakura making her a Cardcaptor and together with Sakura's best friend, Tomoyo, they embark on a mystical journey to capture all the Clow Cards before the Cards can wreak chaos and destruction.",
         "stock": 19
     },
@@ -788,7 +788,7 @@
         "category": "shojo",
         "volume": "16",
         "price": 15.23,
-        "pictureURL": "../assets/covers/scc-clear-card-16.webp",
+        "pictureURL": "/covers/scc-clear-card-16.webp",
         "description": "MYSTERIES WITHIN MYSTERIES Strange things are afoot in Sakura’s neighborhood again, beginning with the appearance of puzzling transparent cards in her dreams. Those same dreams have brought her a key that can capture the cards, but as Sakura begins to round up the troublemaking cards that are complicating her shiny new middle-school life, the mysteries only multiply—beginning with the mystery of the new transfer student in her class…",
         "stock": 12
     },
@@ -798,7 +798,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 9.23,
-        "pictureURL": "../assets/covers/the-apotecary-diaries-01.webp",
+        "pictureURL": "/covers/the-apotecary-diaries-01.webp",
         "description": "Maomao, a young woman trained in the art of herbal medicine, is forced to work as a lowly servant in the inner palace. Though she yearns for life outside its perfumed halls, she isn’t long for a life of drudgery! Using her wits to break a “curse” afflicting the imperial heirs, Maomao attracts the attentions of the handsome eunuch Jinshi and is promoted to attendant food taster. But Jinshi has other plans for the erstwhile apothecary, and soon Maomao is back to brewing potions and…solving mysteries?!",
         "stock": 23
     },
@@ -808,7 +808,7 @@
         "category": "seinen",
         "volume": "06",
         "price": 8.33,
-        "pictureURL": "../assets/covers/the-apotecary-diaries-06.webp",
+        "pictureURL": "/covers/the-apotecary-diaries-06.webp",
         "description": "Maomao, a young woman trained in the art of herbal medicine, is forced to work as a lowly servant in the inner palace. Though she yearns for life outside its perfumed halls, she isn’t long for a life of drudgery! Using her wits to break a “curse” afflicting the imperial heirs, Maomao attracts the attentions of the handsome eunuch Jinshi and is promoted to attendant food taster. But Jinshi has other plans for the erstwhile apothecary, and soon Maomao is back to brewing potions and…solving mysteries?!",
         "stock": 33
     },
@@ -818,7 +818,7 @@
         "category": "seinen",
         "volume": "10",
         "price": 9.93,
-        "pictureURL": "../assets/covers/the-apotecary-diaries-10.webp",
+        "pictureURL": "/covers/the-apotecary-diaries-10.webp",
         "description": "Maomao, a young woman trained in the art of herbal medicine, is forced to work as a lowly servant in the inner palace. Though she yearns for life outside its perfumed halls, she isn’t long for a life of drudgery! Using her wits to break a “curse” afflicting the imperial heirs, Maomao attracts the attentions of the handsome eunuch Jinshi and is promoted to attendant food taster. But Jinshi has other plans for the erstwhile apothecary, and soon Maomao is back to brewing potions and…solving mysteries?!",
         "stock": 33
     },
@@ -828,7 +828,7 @@
         "category": "josei",
         "volume": "04",
         "price": 9.93,
-        "pictureURL": "../assets/covers/the-one-within-the-villainess-01.webp",
+        "pictureURL": "/covers/the-one-within-the-villainess-01.webp",
         "description": "In order to clear the name of ‘Emi’, a girl who had reincarnated as Remilia, the villainess of an otome game, the real Remilia who had been watching all along inside awakens. \n Now it's time for the true villainess's revenge to begin!",
         "stock": 20
     },
@@ -838,7 +838,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 10.93,
-        "pictureURL": "../assets/covers/the-summer-hikaru-died-01.webp",
+        "pictureURL": "/covers/the-summer-hikaru-died-01.webp",
         "description": "'So, Hikaru is no more... If that's true then...' \n Yoshiki and Hikaru are two boys who live in a certain village. They're the same age and have always been together growing up. But one day, Yoshiki noticed that 'something else' has taken Hikaru's place. Even after learning of this, Yoshiki still wants them to be together. And so, his life with the 'something' that looks like his friend begins.\n At the same time, strange incidents keep occurring in the village...",
         "stock": 10    
     },
@@ -848,7 +848,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 12.93,
-        "pictureURL": "../assets/covers/tomie-01.webp",
+        "pictureURL": "/covers/tomie-01.webp",
         "description": "Every male who encounters Tomie becomes obsessed with her and eventually kills and dismembers her. But Tomie is not human, and is always reborn…",
         "stock": 15   
     },
@@ -858,7 +858,7 @@
         "category": "seinen",
         "volume": "01",
         "price": 14.63,
-        "pictureURL": "../assets/covers/trigun-01.webp",
+        "pictureURL": "/covers/trigun-01.webp",
         "description": "Vash the Stampede rises again! It's been two years since the mysterious and super-nice gunman went into hiding, and the people of his desert planet are suffering. It takes a friend in peril to bring him out, and when he does, his enemies come chasing… as well as those crazy insurance girls, Millie and Meryl. And Wolfwood the wandering priest? Well, that's who found him in the first place! The gang's all back, and the trouble is coming in Trigun Maximum.",
         "stock": 26   
     },
@@ -868,7 +868,7 @@
         "category": "seinen",
         "volume": "10",
         "price": 15.96,
-        "pictureURL": "../assets/covers/trigun-10.webp",
+        "pictureURL": "/covers/trigun-10.webp",
         "description": "Vash the Stampede rises again! It's been two years since the mysterious and super-nice gunman went into hiding, and the people of his desert planet are suffering. It takes a friend in peril to bring him out, and when he does, his enemies come chasing… as well as those crazy insurance girls, Millie and Meryl. And Wolfwood the wandering priest? Well, that's who found him in the first place! The gang's all back, and the trouble is coming in Trigun Maximum.",
         "stock": 10   
     },
@@ -879,7 +879,7 @@
         "category": "seinen",
         "volume": "12",
         "price": 16.36,
-        "pictureURL": "../assets/covers/trigun-12.webp",
+        "pictureURL": "/covers/trigun-12.webp",
         "description": "Vash the Stampede rises again! It's been two years since the mysterious and super-nice gunman went into hiding, and the people of his desert planet are suffering. It takes a friend in peril to bring him out, and when he does, his enemies come chasing… as well as those crazy insurance girls, Millie and Meryl. And Wolfwood the wandering priest? Well, that's who found him in the first place! The gang's all back, and the trouble is coming in Trigun Maximum.",
         "stock": 13  
     },
@@ -889,7 +889,7 @@
         "category": "seinen",
         "volume": "14",
         "price": 16.96,
-        "pictureURL": "../assets/covers/trigun-14.webp",
+        "pictureURL": "/covers/trigun-14.webp",
         "description": "Vash the Stampede rises again! It's been two years since the mysterious and super-nice gunman went into hiding, and the people of his desert planet are suffering. It takes a friend in peril to bring him out, and when he does, his enemies come chasing… as well as those crazy insurance girls, Millie and Meryl. And Wolfwood the wandering priest? Well, that's who found him in the first place! The gang's all back, and the trouble is coming in Trigun Maximum.",
         "stock": 20  
     },
@@ -899,7 +899,7 @@
         "category": "josei",
         "volume": "01",
         "price": 11.52,
-        "pictureURL": "../assets/covers/watakoi-01.webp",
+        "pictureURL": "/covers/watakoi-01.webp",
         "description": "Narumi Momose has had it rough: every boyfriend she’s had dumped her once they found out she was an otaku, so she’s gone to great lengths to hide it. When a chance meeting at her new job with childhood friend, fellow otaku, and now coworker Hirotaka Nifuji almost gets her secret outed at work, she comes up with a plan to make sure he never speaks up. But he comes up with a counter-proposal: why doesn’t she just date him instead? In love, there are no save points.",
         "stock": 16  
     },
@@ -909,7 +909,7 @@
         "category": "josei",
         "volume": "05",
         "price": 11.52,
-        "pictureURL": "../assets/covers/watakoi-05.webp",
+        "pictureURL": "/covers/watakoi-05.webp",
         "description": "After years of butting heads and petty disagreements, Hanako and Taro begin to realize that the next stage of their relationship may be the most challenging one yet. Naoya faces his own hurdles in trying to understand his feelings toward Ko, whose quest for personal growth has led her farther out of his reach. Fortunately, big brother Hirotaka has some insight to share on the topic, which may bring to light a new perspective of what Narumi means to him…",
         "stock": 20
     },
@@ -919,7 +919,7 @@
         "category": "josei",
         "volume": "07",
         "price": 12.02,
-        "pictureURL": "../assets/covers/watakoi-07.webp",
+        "pictureURL": "/covers/watakoi-07.webp",
         "description": "THE TRUE END, OR JUST THE BEGINNING? Narumi slips up in front of her work friends, and the anxiety of outing herself as an otaku forces her to retreat inward. While Hirotaka is quick to console her, a difference in opinion devolves into an argument. Will the couple learn to grow past this obstacle? Maybe sage advice from bickering experts Hanako and Taro can help? Meanwhile, Naoya and Ko might need some guidance of their own as they take their first steps together as a couple. The conclusion of these intertwining, nerdy love stories awaits!",
         "stock": 11 
     },
@@ -929,7 +929,7 @@
         "category": "seinen",
         "volume": "15",
         "price": 9.02,
-        "pictureURL": "../assets/covers/yakuza-reincarnation-01.webp",
+        "pictureURL": "/covers/yakuza-reincarnation-01.webp",
         "description": "An old school yakuza, Nagamasa Ryumatsu, ended up losing his life due to certain circumstances. But, when he awakened to a strange sort of scenery he had never seen before, he found that he had somehow changed into a beautiful girl?!",
         "stock": 11 
     }
