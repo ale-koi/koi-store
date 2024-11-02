@@ -1,11 +1,12 @@
 .navBar{
     background: linear-gradient(90deg, rgba(255,0,75,1) 0%, rgba(255,175,197,1) 92%);
-    width: 100%;
+    min-width: 100vw;
     height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
+    z-index: 999999;
         a{
             color: #fff;
         }

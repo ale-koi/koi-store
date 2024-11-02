@@ -1,13 +1,12 @@
     .main-cart {
-        min-width: 100vh;
+        min-width: 100vw;
         min-height: 100vh;
         display: flex;
         justify-content: flex-start;
-
         flex-direction: column;
         padding: 10px;
             .empty-cart {
-            width: 100vh;
+            width: 100vw;
             height: 350px;
             display: flex;
             flex-direction: column;
