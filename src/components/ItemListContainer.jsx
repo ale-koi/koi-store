@@ -1,11 +1,9 @@
 import ItemList from './ItemList'
-import '../styles/ItemListContainer.scss'
+import '../styles/itemListContainer.scss'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { collection, getDocs, limit, orderBy, query, where } from "firebase/firestore";
+import { collection, getDocs, limit, query, where } from "firebase/firestore";
 import { db } from '../firebase/config'
-import sendy from "../services/sendJSONToFirebase"
-import { ThreeDots } from 'react-loader-spinner'
 import Loading from './Loading';
 
 const ItemListContainer = () => {

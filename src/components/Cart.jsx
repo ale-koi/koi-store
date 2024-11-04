@@ -2,10 +2,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import CartItem from './CartItem'
 import { Cart as CartContext } from '../contexts/CartProvider'
 import "../styles/cart.scss"
-import { NavLink } from 'react-router-dom'
-import { collection, addDoc, serverTimestamp } from "firebase/firestore";
-import { db } from '../firebase/config'
-import endPurchase from '../services/endPurchase'
 import Checkout from './Checkout'
 import EmptyCart from './EmptyCart'
 

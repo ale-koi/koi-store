@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext} from 'react'
 import cartIcon from '../assets/shopping-cart.svg'
 import { Cart } from '../contexts/CartProvider'
 import { NavLink } from 'react-router-dom'

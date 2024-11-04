@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import "../styles/checkout.scss"
 import endPurchase from '../services/endPurchase'
 import { Cart } from '../contexts/CartProvider'
