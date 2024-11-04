@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 const Item = ({ product }) => {
     return (
-        <div className="item-card" id={product.id}>
+        <div className="item-card" id={product.id} key={product.id}>
             <img src={product.pictureURL} />
             <div className='text'>
             <h2>{product.title}</h2>

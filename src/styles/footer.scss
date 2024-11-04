@@ -1,6 +1,6 @@
 .main-footer {
   width: 100%;
-  height: 120px;
+  height: 100px;
   background: linear-gradient(
     90deg,
     rgba(255, 0, 75, 1) 0%,
@@ -8,8 +8,8 @@
   );
   font-family: dongle;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   padding: 0 20px;
   font-size: 22px;
@@ -17,13 +17,15 @@
   bottom: 0;
   left: 0;
   z-index: -99;
+  img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+  }
 
-  .credits .links {
+  .credits {
     text-align: center;
   }
 
-  img {
-    width: 30px;
-    margin: 10px;
-  }
+  
 }

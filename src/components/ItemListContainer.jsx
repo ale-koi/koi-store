@@ -2,13 +2,16 @@ import ItemList from './ItemList'
 import '../styles/ItemListContainer.scss'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { collection, getDocs, limit, query, where } from "firebase/firestore";
+import { collection, getDocs, limit, orderBy, query, where } from "firebase/firestore";
 import { db } from '../firebase/config'
 import sendy from "../services/sendJSONToFirebase"
+import { ThreeDots } from 'react-loader-spinner'
+import Loading from './Loading';
 
 const ItemListContainer = () => {
 
     /* hooks to use ,,Ծ‸Ծ,,*/
+    const [error, setError] = useState(false)
     const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(false)
     const { categoryId } = useParams()
@@ -37,22 +40,33 @@ const ItemListContainer = () => {
                 setProducts(filteredProducts)
                 setLoading(false)
             } catch (error) {
-                console.log(error)
+                setError(true)
+                setLoading(false)
             }
         }
         gettingProducts()
     }, [categoryId])
 
-
-
     /*sugar syntax that changes depending on if it's loading or not ( ￣┏＿┓￣) */
     return loading ?
-        (<div style={{minHeight: "35vw"}}>
-            <h1 style={{ fontSize: 65, color: '#FC7A2D', textAlign: 'center', marginTop: 300,}}> Loading!ヾ(￣0￣； )ノ</h1>
-        </div>
+        (
+        <Loading/>
         )
         :
-        <ItemList products={products} />
+        error ?
+            (
+                <div className='main-container'>
+                    <h1>Something went</h1>
+                    <p>You could try again ___ψ(‥ )</p>
+                    <button>Home</button>
+                </div>
+            )
+            :
+            (
+                <ItemList products={products} />
+            )
+
+
 } //closes the useEffect (´∇ﾉ｀*)ノ
 
 export default ItemListContainer

@@ -3,21 +3,17 @@ import Footer from "./Footer"
 import "../styles/layout.scss"
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <div className="layout">
-        <Navbar />
-        <div>
-        {children}
-        </div>
-          
-        <Footer />
-      </div>
-
-    </>
-  )
+    return (
+        <>
+            <div className="layout">
+                <Navbar />
+                <div>
+                    {children}
+                </div>
+                <Footer />
+            </div>
+        </>
+    )
 }
 
 export default Layout
-
-// add footer here eventually (_ _)ヾ(‘ロ‘)

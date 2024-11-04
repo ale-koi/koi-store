@@ -77,7 +77,8 @@ const endPurchase = async (cartList, totalPrice, form) => {
             <div id="orderSucess">
             
             <h1 class='thank'>Thank you, ${form.firstName}</h1>
-            <div class='order-number'> We're working on your order ID no: ${docRef.id}</div>
+            <div class='order-number'> 
+            <h2>We're working on your order ID no: ${docRef.id}</h2>
             <p>We'll start working on it! (/・・)ノ</p>
             </div>
             
@@ -97,7 +98,7 @@ const endPurchase = async (cartList, totalPrice, form) => {
         document.querySelector('#orderStatus').innerHTML = `
         <div id="orderError">
         <h1>Something went wrong (*・_・)ノ⌒*</h1>
-        <p>Please review your order!</p>
+        <h2>Please review your order!</h2>
         </div>
         `
         let btn = document.querySelector('#checkOutBtn')

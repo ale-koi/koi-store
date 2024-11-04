@@ -1,9 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import "../styles/checkout.scss"
-import { NavLink } from 'react-router-dom'
 import endPurchase from '../services/endPurchase'
 import { Cart } from '../contexts/CartProvider'
-import processingPurchase from '../services/processingPurchase'
 
 
 
@@ -55,7 +53,7 @@ const Checkout = ({ viewModal }) => {
                         (
                             <div className='modal-message' >
                                 <div id='orderStatus'>
-                                    <p>Working on it! (。-`ω´-)</p>
+                                    <h1>Working on it! (。-`ω´-)</h1>
                                 </div>
                                 <button onClick={purchaseOver} id='checkOutBtn'>Accept</button>
                             </div>
@@ -63,7 +61,7 @@ const Checkout = ({ viewModal }) => {
                         :
                         (
                             <div className='modal-form'>
-                                <button className='remove-icon' onClick={viewModal} >x</button>
+                                <button className='remove-icon' onClick={viewModal}>x</button>
                                 <h1>Billing info:</h1>
                                 <form>
                                     <div className='input-field'>
@@ -93,7 +91,7 @@ const Checkout = ({ viewModal }) => {
                                             onChange={(e) => setForm({ ...form, phone: e.target.value })} />
                                         {form.phone.length <= 7 && <span>Phones are a little longer, between 7 and 10 numbers.</span>}
                                     </div>
-                                    <div>
+                                    <div className='input-field'>
                                         <h3>Email:</h3>
                                         <input
                                             type="email"

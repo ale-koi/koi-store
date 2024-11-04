@@ -2,6 +2,7 @@ import { useState } from 'react'
 import '../styles/itemCount.scss'
 
 const ItemCount = ({ stock, addToCart }) => {
+    
     //this adds ヽ(*≧ω≦)ﾉ
     const [count, setCount] = useState(1)
     let itemQuantity = Number(stock)
@@ -23,8 +24,6 @@ const ItemCount = ({ stock, addToCart }) => {
         }
     }
 
-    //add some kind of if here ｏ口(・∀・ ) perhaps, who knows?
-
 
     return (
         <>
@@ -39,7 +38,6 @@ const ItemCount = ({ stock, addToCart }) => {
                 </div>
                 <button className='add-cart-btn' onClick={() => addToCart(count)} > Add to Cart </button>
                 </>
-            
             ):
             (
                 <button disabled> Sold Out </button>

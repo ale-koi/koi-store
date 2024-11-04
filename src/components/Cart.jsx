@@ -7,7 +7,7 @@ import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from '../firebase/config'
 import endPurchase from '../services/endPurchase'
 import Checkout from './Checkout'
-
+import EmptyCart from './EmptyCart'
 
 
 
@@ -34,37 +34,30 @@ const Cart = () => {
 
 
     return (
-        <>
+        <div className='cart-main-container' style={{justifyContent: cartList.length ? 'unset' : 'center',}}>
         {modal &&(
-            <div>
+            <div className='modal-cart' >
                 <Checkout viewModal={handleModal}/>
             </div>
                     
                 )}
             <div className='cart-header'>
-                <h1>Cart.</h1>
-                <button style={{ display: cartList.length ? 'unset' : 'none', backgroundColor: '#FC7A2D' }} onClick={hanlderClearer}>Clear Cart</button>
+                <button style={{ width: "200px", marginRight: 10, display: cartList.length ? 'unset' : 'none', backgroundColor: '#FC7A2D' }} onClick={hanlderClearer}>Clear Cart</button>
             </div>
-
-            <div className='main-cart' style={{ alignItems: cartList.length ? 'flex-end' : 'center' }}>
+            <div className='main-cart'>
                 {cartList.length ? (
                     cartList.map((cartItem) => {
                         return <CartItem product={cartItem} key={cartItem.id} />
                     })
                 ) : (
-                    <div className='empty-cart'>
-                        <p>Your cart is currently empty</p>
-                        <p>Wanna see more products?</p>
-                        <NavLink to="/"><button>Catalogue</button></NavLink>
-                    </div>
+                    <EmptyCart/>
                 )
                 }
-
+                </div>
                 {totalPrice ?
 
                     <div className='price-box'>
-                        <h3>Sub-total: ${(totalPrice).toFixed(2)}</h3>
-                        <h3>Total + shipping: ${finalPrice}</h3>
+                        <h3>Total: ${(totalPrice).toFixed(2)}</h3>
                         <button onClick={() => setModal(true) }>Go to Checkout</button>
                     </div>
 
@@ -73,8 +66,8 @@ const Cart = () => {
                 }
 
                 
-            </div>
-        </>
+            
+        </div> /* ends cart main container （。＞。＜。）*/
     )
 
 }

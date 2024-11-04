@@ -1,6 +1,6 @@
 .navBar{
     background: linear-gradient(90deg, rgba(255,0,75,1) 0%, rgba(255,175,197,1) 92%);
-    min-width: 100vw;
+    width: 100%;
     height: 75px;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@
             font-family: Dongle;
             font-weight: 400;
             padding: 5px;
-            font-size: 44px;
+            font-size: 45px;
             line-height: 0.8;
             margin: 10px;
                 &:first-of-type{
@@ -33,19 +33,35 @@
 
 .cart-div{
     width: 30%;
-    margin: 20px;
+    height: inherit;
+    margin: 10px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:center;
     justify-content: flex-end;
+
         img{
+            width: 50px;
+            margin: 10px;
             cursor: pointer;
+            
+        }
+        .cart-button{
+            width: 40px; 
+            height: 40px; 
+            font-size: 30px;
+            color: white; 
+            background-color: #FF004B; 
+            text-align: center;
+            border-radius: 100px;
+            font-family: 'Dongle';
+            display: inline-block;
         }
     
 }
 
 .notActive{
-    padding: 10px;
+    padding: 15px;
         &:hover{
             background-color: #FC7A2D;
         }    
@@ -53,7 +69,7 @@
 
 
 .Active{
-    padding: 10px;
+    padding: 15px;
     background-color: #FC7A2D;
         &:hover{
             background-color: #FC7A2D;

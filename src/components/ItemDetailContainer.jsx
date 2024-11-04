@@ -1,15 +1,18 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ItemDetail from './ItemDetail'
 import { useParams } from 'react-router-dom'
 import { doc, getDoc } from "firebase/firestore";
 import { db } from '../firebase/config';
-import NotFound from './NotFound';
+import Loading from './Loading';
+import ItemNotFound from './ItemNotFound';
 
 
 const ItemDetailContainer = () => {
     const { id } = useParams()
     const [item, setItem] = useState([])
     const [loading, setLoading] = useState(false)
+    const [error, setError] = useState(false)
+
 
     useEffect(() => {
         const settingItem = async () => {
@@ -25,10 +28,9 @@ const ItemDetailContainer = () => {
                     setItem({ ...docSnap.data(), id })
                     setLoading(false)
                 } else {
-                    /*remember to put something else? ＿φ(□□ヘ) */
-                    /*create a conditional that if document doesn't exist enters the rendring ┌( ಠ_ಠ)┘ */
-                    console.log("No such document!");
-                    
+                    /*for when the item  is just not there sadge ｡◕‿◕｡ */
+                    setError(true)
+                    setLoading(false)
                 }
             } catch (error) { /*dont forget the errors */
                 console.log(error)
@@ -38,12 +40,20 @@ const ItemDetailContainer = () => {
     }, [id]) /*this closes the useEffect ヽ(*^ｰ^)人(^ｰ^*)ノ dont forget */
 
     return loading ?
-    (<div style={{minHeight: "35vw"}}>
-        <h1 style={{ fontSize: 65, color: '#FC7A2D', textAlign: 'center', marginTop: 300,}}> Loading! (｡･ω･)ﾉﾞ</h1>
-    </div>
-    )
-    :
-        <ItemDetail item={item} />
+        (
+            <Loading/>
+        )
+        : (
+            error ?
+                (
+                    <ItemNotFound/>
+                )
+                :
+                (
+                    <ItemDetail item={item} />
+                )
+        )
+
 }
 
 export default ItemDetailContainer
