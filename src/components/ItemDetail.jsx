@@ -33,8 +33,7 @@ const ItemDetail = ({ item }) => {
                         <h4>{item.author}</h4>
                     </div>
                         <p>{item.description}</p>
-                        <h4>Price: ${item.price} <span>Tax Included</span></h4>
-                    
+                        <h4>Price: ${item.price} <span>Tax Included</span></h4>                  
                 </div>
 
 

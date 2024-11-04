@@ -48,6 +48,10 @@ button {
   cursor: pointer;
   font-size: 16px;
   margin: 10px;
+    &:disabled{
+      background-color: #FC7A2D;
+      cursor: unset;
+    }
 }
 
 ul{

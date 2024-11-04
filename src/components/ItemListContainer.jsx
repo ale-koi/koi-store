@@ -31,7 +31,6 @@ const ItemListContainer = () => {
                     setLoading(true)
                     const querySnapshot = await getDocs(collection(db, "products"), limit(20));
                     querySnapshot.forEach((doc) => {
-                        console.log("(*-ω-)")
                         filteredProducts.push({ id: doc.id, ...doc.data() })
                     })
                 }

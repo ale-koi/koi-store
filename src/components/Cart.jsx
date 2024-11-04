@@ -10,6 +10,8 @@ import Checkout from './Checkout'
 
 
 
+
+
 const Cart = () => {
     const { cartList, totalPrice, hanlderClearer } = useContext(CartContext)
     const [modal, setModal] = useState(false)
@@ -25,12 +27,19 @@ const Cart = () => {
         window.addEventListener("keydown", handleEscModal)
     },[])
 
+    const handleModal = ()=>{
+        setModal(false)
+    }
+
 
 
     return (
         <>
         {modal &&(
-                    <Checkout/>
+            <div>
+                <Checkout viewModal={handleModal}/>
+            </div>
+                    
                 )}
             <div className='cart-header'>
                 <h1>Cart.</h1>
@@ -55,8 +64,7 @@ const Cart = () => {
 
                     <div className='price-box'>
                         <h3>Sub-total: ${(totalPrice).toFixed(2)}</h3>
-                        <h3>Total + shipping: ${(totalPrice + 20).toFixed(2)}</h3>
-                        {/* <button onClick={() => endPurchase(cartList, totalPrice)}>Go to Checkout</button> */}
+                        <h3>Total + shipping: ${finalPrice}</h3>
                         <button onClick={() => setModal(true) }>Go to Checkout</button>
                     </div>
 

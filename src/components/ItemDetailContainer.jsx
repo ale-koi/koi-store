@@ -3,6 +3,7 @@ import ItemDetail from './ItemDetail'
 import { useParams } from 'react-router-dom'
 import { doc, getDoc } from "firebase/firestore";
 import { db } from '../firebase/config';
+import NotFound from './NotFound';
 
 
 const ItemDetailContainer = () => {
@@ -25,7 +26,9 @@ const ItemDetailContainer = () => {
                     setLoading(false)
                 } else {
                     /*remember to put something else? ＿φ(□□ヘ) */
+                    /*create a conditional that if document doesn't exist enters the rendring ┌( ಠ_ಠ)┘ */
                     console.log("No such document!");
+                    
                 }
             } catch (error) { /*dont forget the errors */
                 console.log(error)

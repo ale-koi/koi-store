@@ -28,14 +28,24 @@ const ItemCount = ({ stock, addToCart }) => {
 
     return (
         <>
-            <div id='itemCount'>
+        <div id='itemCount'>
+        {
+            stock ? (
+                <>
                 <div className='itemButton'>
                     <div className='item-arrow' onClick={handlerRemover}> - </div>
                     <div className='item-quantity'> {count} </div>
                     <div className='item-arrow' onClick={handlerAdder}> + </div>
                 </div>
                 <button className='add-cart-btn' onClick={() => addToCart(count)} > Add to Cart </button>
-            </div>
+                </>
+            
+            ):
+            (
+                <button disabled> Sold Out </button>
+            )
+        }
+        </div>
         </>
     )
 }

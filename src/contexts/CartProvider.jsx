@@ -36,7 +36,6 @@ const CartProvider = ({ children }) => { //remeber the children part with this k
     // steps for cart: having a  new var to update, check if item exist, push into that or add amount and then push ＼(o￣∇￣o)/
 
     const hanlderClearer = () => {
-        console.log(cartList)
         let position = cartList.length
         let clear = cartList.splice(0, position)
         setTotalItem(0)

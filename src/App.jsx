@@ -7,6 +7,8 @@ import CartProvider from "./contexts/CartProvider.jsx";
 import Cart from "./components/Cart.jsx";
 import Testing from "./components/Testing.jsx";
 import Checkout from "./components/Checkout.jsx";
+import OrderPlaced from "./components/OrderPlaced.jsx";
+import NotFound from "./components/NotFound.jsx";
 
 
 
@@ -23,6 +25,7 @@ function App() {
                     <Route path = "/cart" element = {<Cart/>}/>
                     <Route path = "/testing" element ={<Testing/>}/>
                     <Route path = "/checkout" element={<Checkout/>}/>
+                    <Route path = "*" element={<NotFound/>}/>
                 </Routes>
             </Layout>
         </BrowserRouter>
