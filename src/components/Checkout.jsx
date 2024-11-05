@@ -19,7 +19,7 @@ const Checkout = ({ viewModal }) => {
 
     const handleSubmit = () => {
 
-        if (!form.first == "" && !form.lastName == "" && form.email.includes("@" && ".") && form.phone.length >= 5 && emailConfirm === form.email) {
+        if (form.first != "" && form.lastName != "" && form.email.includes("@" && ".") && form.phone.length >= 5 && emailConfirm === form.email) {
             setShowMessage(true)
             endPurchase(cartList, totalPrice, form)
         } else {
