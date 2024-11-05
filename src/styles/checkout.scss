@@ -1,14 +1,14 @@
 .modal-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     position: fixed;
     left: 0;
 
     .modal {
-        width: 70%;
-        height: 600px;
+        width: 60%;
+        height: 550px;
         padding: 10px;
         margin: 10px;
         background-color: #fff;

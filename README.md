@@ -60,3 +60,6 @@ To visit the site go to:
 
 * Sass: 
     Used to manage the CSS code.
+
+* AOS:
+    Use to manage the Scrolling animation in Main. 

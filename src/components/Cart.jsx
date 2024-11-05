@@ -21,6 +21,8 @@ const Cart = () => {
             }
         }
         window.addEventListener("keydown", handleEscModal)
+
+        window.scrollTo(0, 0)
     },[])
 
     const handleModal = ()=>{

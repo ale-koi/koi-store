@@ -32,6 +32,7 @@ const Checkout = ({ viewModal }) => {
         if(order){
             hanlderClearer()
             viewModal()
+            
 
         }else{
             viewModal()

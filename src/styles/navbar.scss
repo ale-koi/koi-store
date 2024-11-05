@@ -25,6 +25,8 @@
             margin: 10px;
                 &:first-of-type{
                     font-size: 55px;
+                    margin-left: -10px;
+
                     
             }
     }
@@ -61,10 +63,11 @@
 }
 
 .notActive{
+
     padding: 15px;
         &:hover{
             background-color: #FC7A2D;
-        }    
+        }
 }
 
 
@@ -75,3 +78,6 @@
             background-color: #FC7A2D;
         }
 }
+
+
+

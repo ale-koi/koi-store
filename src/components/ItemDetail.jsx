@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import ItemCount from "./ItemCount"
 import '../styles/itemDetailContainer.scss'
 import backbtn from '../assets/back-arrow.svg'
@@ -15,6 +15,10 @@ const ItemDetail = ({ item }) => {
         setViewButton(false)
         addCart(item, amount)
     }
+
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    })
 
 
     return (
