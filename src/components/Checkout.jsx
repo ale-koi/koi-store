@@ -19,7 +19,7 @@ const Checkout = ({ viewModal }) => {
 
     const handleSubmit = () => {
 
-        if (form.firstName.length >= 3 && form.lastName.length >= 2 && form.email.includes("@" && ".") && form.phone.length >= 7 && emailConfirm === form.email) {
+        if (!form.first == "" && !form.lastName == "" && form.email.includes("@" && ".") && form.phone.length >= 5 && emailConfirm === form.email) {
             setShowMessage(true)
             endPurchase(cartList, totalPrice, form)
         } else {
@@ -67,7 +67,7 @@ const Checkout = ({ viewModal }) => {
                                             placeholder='First Name...'
                                             value={form.firstName}
                                             onChange={(e) => setForm({ ...form, firstName: e.target.value })} />
-                                        {form.firstName.length < 3 && <span>Must be longer than 3 characters.</span>}
+                                        {form.firstName === "" && <span>Name can't be empty. </span>}
                                     </div>
                                     <div className='input-field'>
                                         <h3>Last name:</h3>
@@ -76,7 +76,7 @@ const Checkout = ({ viewModal }) => {
                                             placeholder='Last Name'
                                             value={form.lastName}
                                             onChange={(e) => setForm({ ...form, lastName: e.target.value })} />
-                                        {form.lastName.length < 2 && <span>Must be longer than 2 characters.</span>}
+                                        {form.lastName === "" && <span>Last name can't be empty.</span>}
                                     </div>
                                     <div className='input-field'>
                                         <h3>Phone Number:</h3>
@@ -85,7 +85,7 @@ const Checkout = ({ viewModal }) => {
                                             placeholder='Phone number'
                                             value={form.phone}
                                             onChange={(e) => setForm({ ...form, phone: e.target.value })} />
-                                        {form.phone.length <= 7 && <span>Must be 7 digits or longer</span>}
+                                        {form.phone.length <= 5 && <span>Must be 5 digits or longer</span>}
                                     </div>
                                     <div className='input-field'>
                                         <h3>Email:</h3>
