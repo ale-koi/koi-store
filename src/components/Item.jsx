@@ -20,7 +20,7 @@ const Item = ({ product }) => {
             <h5>vol. {product.volume}</h5>
             <h4>${product.price}</h4>
             </div>
-                {product.stock ? (<NavLink to={`/item/${product.id}`}><button>See more</button></NavLink>) : (<NavLink to={`/item/${product.id}`}><button>Sold Out</button></NavLink>)
+                {product.stock ? (<NavLink to={`/item/${product.id}`}><button>See more</button></NavLink>) : (<NavLink to={`/item/${product.id}`}><button style={{backgroundColor: "#fc7a2d"}}>Sold Out</button></NavLink>)
                 }
             
         </div>
