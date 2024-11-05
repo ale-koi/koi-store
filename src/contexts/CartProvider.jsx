@@ -9,6 +9,7 @@ const CartProvider = ({ children }) => { //remeber the children part with this k
     const [totalItem, setTotalItem] = useState(0)
     const [totalPrice, setTotalPrice] = useState(0)
     const [update, setUpdate] = useState(false)
+    
 
     let cartListUpdated = [...cartList]
     const addCart = (item, amount) => {

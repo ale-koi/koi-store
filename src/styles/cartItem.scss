@@ -25,14 +25,26 @@
         }
 
         .remove-icon{
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             border-radius: 55px;
             font-family: dongle;
-            font-size: 35px;
+            font-size: 30px;
             cursor: pointer;
-            margin: 20px;
+            margin: 0 20px;
             
+        }
+        .remove-button{
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            span{
+                font-size: 13px;
+
+                text-align: center;
+            }
         }
 }
 
