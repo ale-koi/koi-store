@@ -3,7 +3,6 @@ import { db } from "../firebase/config"
 
 const endPurchase = async (cartList, totalPrice, form) => {
     const refProductsToUpdate = [] /*this is a reference for the updated refs(*･ω･) */
-    console.log(cartList)
 
     for (const cartItem of cartList) {
         const itemRef = doc(db, "products", cartItem.id) /*this is just to create the reference to the doc (￣▽￣)ノ*/
@@ -25,22 +24,17 @@ const endPurchase = async (cartList, totalPrice, form) => {
                 if (!item.exists()) {
                     throw "Document does not exist!";
                 }
-                console.log({ data: { ...item.data() } })
                 /*first consult to the db ( ^o)ρ┳┻┳°σ(o^ )  */
 
                 const itemInCart = cartList.find(
                     (cartElement) => cartElement.id === item.id
                 )
-                console.log(itemInCart)
 
                 const substractingStock =
                     item.data().stock - itemInCart.quantity /*check this (〝▼皿▼） */
 
                 if (substractingStock < 0)
-                    throw `There's not enough of ${item.data().title} for your order.
-                    ${item.data().title} left in stock: ${item.data().stock}
-                    ${item.data().title} in your cart: ${item.data().quantity}
-                    `
+                    throw TypeError()
 
                 updatedStocks.push({
                     productId: item.id,
@@ -54,7 +48,6 @@ const endPurchase = async (cartList, totalPrice, form) => {
                 const updatedStock = updatedStocks.find(
                     (stock) => stock.productId === id
                 )
-                console.log({ updatedStock })
                 transaction.update(ref, {
                     stock: updatedStock.stock,
                 })

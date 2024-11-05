@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/item.scss'
 import { NavLink } from 'react-router-dom'
 
-// ADD THE KEY TO EACH DIV ヽ(゜Q。)ノ？
 
 const Item = ({ product }) => {
     return (

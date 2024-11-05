@@ -16,7 +16,7 @@ const Cart = () => {
     useEffect(()=>{
         const handleEscModal =(e)=>{
             if (e.key === "Escape"){
-                console.log("(;*´Д`)ﾉ")
+
                 setModal(false)
             }
         }

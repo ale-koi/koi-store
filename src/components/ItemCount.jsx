@@ -10,8 +10,6 @@ const ItemCount = ({ stock, addToCart }) => {
     const handlerAdder = () => {
         if (itemQuantity > 0 && count < itemQuantity) {
             setCount(prevCount => prevCount + 1)
-        } else {
-            console.log("⊂(￣(工)￣)⊃")
         }
     }
     // this substracts ( ´(00)`)!
@@ -19,8 +17,6 @@ const ItemCount = ({ stock, addToCart }) => {
     const handlerRemover = () => {
         if (count > 1) {
             setCount(prevCount => prevCount - 1)
-        } else {
-            console.log("ヘ(￣ω￣ヘ)")
         }
     }
 

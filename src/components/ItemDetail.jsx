@@ -13,7 +13,6 @@ const ItemDetail = ({ item }) => {
 
     const cartHandle = (amount) => {
         setViewButton(false)
-        console.log(amount)
         addCart(item, amount)
     }
 

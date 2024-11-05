@@ -4,7 +4,6 @@ import endPurchase from '../services/endPurchase'
 import { Cart } from '../contexts/CartProvider'
 
 
-
 const Checkout = ({ viewModal }) => {
     const { totalPrice, hanlderClearer, cartList } = useContext(Cart)
     const [emailConfirm, setEmailConfirm] = useState("")
@@ -21,11 +20,9 @@ const Checkout = ({ viewModal }) => {
     const handleSubmit = () => {
 
         if (form.firstName.length >= 3 && form.lastName.length >= 2 && form.email.includes("@" && ".") && form.phone.length >= 7 && emailConfirm === form.email) {
-            console.log("ミ(・・)ミ")
             setShowMessage(true)
             endPurchase(cartList, totalPrice, form)
         } else {
-            console.log("unpog (｀(エ)´)ﾉ")
             setFormValidated(true)
         }
     }
@@ -35,11 +32,9 @@ const Checkout = ({ viewModal }) => {
         if(order){
             hanlderClearer()
             viewModal()
-            console.log("works ヾ(@゜∇゜@)ノ")
 
         }else{
             viewModal()
-            console.log("this is shit （)´д`(）")
         }
     }
 
@@ -68,10 +63,10 @@ const Checkout = ({ viewModal }) => {
                                         <h3>First name:</h3>
                                         <input
                                             type="text"
-                                            placeholder='First Name'
+                                            placeholder='First Name...'
                                             value={form.firstName}
                                             onChange={(e) => setForm({ ...form, firstName: e.target.value })} />
-                                        {form.firstName.length < 3 && <span>It must be longer than 3 characters.</span>}
+                                        {form.firstName.length < 3 && <span>Must be longer than 3 characters.</span>}
                                     </div>
                                     <div className='input-field'>
                                         <h3>Last name:</h3>
@@ -80,7 +75,7 @@ const Checkout = ({ viewModal }) => {
                                             placeholder='Last Name'
                                             value={form.lastName}
                                             onChange={(e) => setForm({ ...form, lastName: e.target.value })} />
-                                        {form.lastName.length < 2 && <span>It must be longer than 2 characters.</span>}
+                                        {form.lastName.length < 2 && <span>Must be longer than 2 characters.</span>}
                                     </div>
                                     <div className='input-field'>
                                         <h3>Phone Number:</h3>
@@ -89,7 +84,7 @@ const Checkout = ({ viewModal }) => {
                                             placeholder='Phone number'
                                             value={form.phone}
                                             onChange={(e) => setForm({ ...form, phone: e.target.value })} />
-                                        {form.phone.length <= 7 && <span>Phones are a little longer, between 7 and 10 numbers.</span>}
+                                        {form.phone.length <= 7 && <span>Must be 7 digits or longer</span>}
                                     </div>
                                     <div className='input-field'>
                                         <h3>Email:</h3>
@@ -109,9 +104,8 @@ const Checkout = ({ viewModal }) => {
                                             onChange={(e) => setEmailConfirm(e.target.value)} />
                                         {emailConfirm != form.email && <span>Email addresses don't match.</span>}
                                     </div>
-
                                 </form>
-                                {formValidated ? <h3>All info is requiered</h3> : null}
+                                {formValidated ? <h3>All info is required</h3> : null}
                                 <button onClick={handleSubmit}>Submit</button>
                             </div>
                         )

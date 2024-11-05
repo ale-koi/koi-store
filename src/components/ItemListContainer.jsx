@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import { collection, getDocs, limit, query, where } from "firebase/firestore";
 import { db } from '../firebase/config'
 import Loading from './Loading';
+import ItemNotFound from './ItemNotFound';
 
 const ItemListContainer = () => {
 
@@ -46,23 +47,7 @@ const ItemListContainer = () => {
     }, [categoryId])
 
     /*sugar syntax that changes depending on if it's loading or not ( ￣┏＿┓￣) */
-    return loading ?
-        (
-        <Loading/>
-        )
-        :
-        error ?
-            (
-                <div className='main-container'>
-                    <h1>Something went</h1>
-                    <p>You could try again ___ψ(‥ )</p>
-                    <button>Home</button>
-                </div>
-            )
-            :
-            (
-                <ItemList products={products} />
-            )
+    return loading ? (<Loading />): error ? (<ItemNotFound />):(<ItemList products={products} />)
 
 
 } //closes the useEffect (´∇ﾉ｀*)ノ

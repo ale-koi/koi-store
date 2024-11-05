@@ -1,4 +1,4 @@
-import { createContext, useState } from "react"
+import { createContext, useMemo, useState } from "react"
 
 // this so it can be used around (≧∇≦)/
 export const Cart = createContext()
@@ -60,6 +60,7 @@ const CartProvider = ({ children }) => { //remeber the children part with this k
     const totalPurchase = () => cartListUpdated.reduce((ac, item) => {
         return ac += item.quantity;
     }, 0)
+
 
     const finalPrice = () => cartListUpdated.reduce((ac, item) => {
         return ac += item.total;

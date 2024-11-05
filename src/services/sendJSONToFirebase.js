@@ -15,7 +15,6 @@ const sendJSONToFirebase = async () => {
         description: product.description,
         stock: product.stock,
       });
-      console.log("Document written with ID: ", docRef.id);
     });
   } catch (err) {
     console.log(err);

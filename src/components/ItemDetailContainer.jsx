@@ -12,6 +12,7 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState([])
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(false)
+    
 
 
     useEffect(() => {
@@ -24,7 +25,6 @@ const ItemDetailContainer = () => {
                 const docSnap = await getDoc(docRef);
                 /*the search for the data 且_(・_・ ) */
                 if (docSnap.exists()) {
-                    console.log("Document data:", docSnap.data());
                     setItem({ ...docSnap.data(), id })
                     setLoading(false)
                 } else {
@@ -33,26 +33,14 @@ const ItemDetailContainer = () => {
                     setLoading(false)
                 }
             } catch (error) { /*dont forget the errors */
-                console.log(error)
+                setError(true)
+                setLoading(false)
             }
         }
         settingItem()
     }, [id]) /*this closes the useEffect ヽ(*^ｰ^)人(^ｰ^*)ノ dont forget */
 
-    return loading ?
-        (
-            <Loading/>
-        )
-        : (
-            error ?
-                (
-                    <ItemNotFound/>
-                )
-                :
-                (
-                    <ItemDetail item={item} />
-                )
-        )
+    return loading ?(<Loading/>):(error ?(<ItemNotFound/>):(<ItemDetail item={item} />))
 
 }
 
